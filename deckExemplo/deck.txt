@@ -1,0 +1,9 @@
+&DECK DE TESTES AUTOMATICOS, SEPARADOS POR FUNCIONALIDADES.
+caminho="/home/david/FTNEWAVE/deck_teste"
+&Evaporacao
+&Balanco_Hidrico_Usina
+&Balanco_Demanda
+&Restricao_Eletrica_Especial
+&Altura
+&FPHA
+ECO
