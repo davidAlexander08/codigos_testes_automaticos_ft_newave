@@ -1,0 +1,1329 @@
+Versao do NEWAVE: 30.0.1
+Numero de processadores: 10
+Argumento adicionais para o sintetizador:
+Argumento adicionais para o pos-processamento:
+Mudando o diretorio para /home/pem/estudos/v30.0.1/testes_FT/FTNEWAVE/TesteBase
+Executando o Conversor de Nomes do NEWAVE
+--------------------------------------------
+Programa para converter os nomes de arquivos 
+de dados utilizados pelo programa NEWAVE
+                 Versao 3.0
+--------------------------------------------
+
+Executando o NEWAVE
+
+
+
+                         P R O G R A M A   N E W A V E
+
+
+              MODELO DE CALCULO DE ESTRATEGIAS OPERATIVAS PARA
+
+                   SISTEMAS HIDROTERMICOS INTERLIGADOS
+
+                             V E R S A O   30.0.1                                  
+
+PROGRAMA LICENCIADO PARA ONS                                                                                                                                                   
+
+
+ DATA: 07-01-2025                                               HORA: 14:30:40
+-------------------------------------------------------------------------------
+PMO - AGOSTO - 2024 - sombra Hibrido - NW Versao 29.4                         
+-------------------------------------------------------------------------------
+
+
+  ALERTA: A FUNCIONALIDADE RESTRICOES ELETRICAS SERA DESABILITADA.
+          NAO FORAM ENCONTRADAS RESTRICOES ELETRICAS VALIDAS NO ARQUIVO re.dat                                            .
+
+ ATENCAO: FORAM ENCONTRADOS    3 ALERTAS DURANTE O PROCESSO DE CONSISTENCIA DE
+          DADOS. VERIFIQUE O RELATORIO DE CONVERGENCIA.
+
+
+ 
+                    RELATORIO DE CONVERGENCIA
+   X----X----------------------X----------------------X----------------------X----------------------X----------------------X----------------------X
+    ITER               LIMITE                 ZINF                  LIMITE                  ZSUP                 DZINF                  ZSUP
+                      INFERIOR                                     SUPERIOR                                       (%)                   ITER.
+   X----X----------------------X----------------------X----------------------X----------------------X----------------------X----------------------X
+      1                71860.80               61611.55              113605.97               94450.45                                                B    000h00min13.000s
+      1                63182.81               61611.55              117466.74               94450.45                                                B     (99%)
+      1                62415.76               61611.55              104160.92               85005.40          -                           85005.40  B
+      2                61860.63               62016.20               74966.17               68935.27                                                B    000h00min10.000s
+      2                58935.41               62016.20               76254.44               68935.27                                                B     (99%)
+      2                54967.11               62016.20               68072.64               62041.74        0.657                         62041.74  B
+ Processamento Concluido
+ Processamento Concluido
+ Processamento Concluido
+ Processamento Concluido
+ Processamento Concluido
+ Processamento Concluido
+ Processamento Concluido
+ Processamento Concluido
+ Processamento Concluido
+ Processamento Concluido
+Gerando nwlistcf.dat para o mês: 09
+Executando: /home/pem/versoes/NEWAVE/v30.0.1/nwlistcf30.0.1_L
+
+
+
+                     P R O G R A M A   N W L I S T C F
+
+                   IMPRESSAO DAS FUNCOES DE CUSTO FUTURO
+
+                         DO MODELO   N E W A V E
+
+                           V E R S A O   30.0.1            
+ 
+ *** ERRO: NOME DO ARQUIVO INVALIDO.
+           NOME DO ARQUIVO: cortes.dat                    
+
+Gerando nwlistop.dat opção 2 entre os estágios: 1 - 53
+Executando: /home/pem/versoes/NEWAVE/v30.0.1/nwlistop30.0.1_L
+
+
+
+                         P R O G R A M A   N W L I S T O P
+
+                                  MODELO NEWAVE 
+                    PROGRAMA AUXILIAR PARA IMPRESSAO DA OPERACAO
+
+                               V E R S A O   30.0.1            
+
+Gerando nwlistop.dat opção 4 entre os estágios: 1 - 53
+Executando: /home/pem/versoes/NEWAVE/v30.0.1/nwlistop30.0.1_L
+
+
+
+                         P R O G R A M A   N W L I S T O P
+
+                                  MODELO NEWAVE 
+                    PROGRAMA AUXILIAR PARA IMPRESSAO DA OPERACAO
+
+                               V E R S A O   30.0.1            
+
+Programas auxiliares do NEWAVE executados em 4.81 segundos!
+Sintetizando
+2025-01-07 14:39:09,268 INFO: # Realizando síntese COMPLETA #
+2025-01-07 14:39:22,372 INFO: Realizando síntese de EST
+2025-01-07 14:39:22,399 INFO: Tempo para sintese de EST: 0.03 s
+2025-01-07 14:39:22,400 INFO: Realizando síntese de PAT
+2025-01-07 14:39:22,435 INFO: Tempo para sintese de PAT: 0.03 s
+2025-01-07 14:39:22,435 INFO: Realizando síntese de SBM
+2025-01-07 14:39:22,451 INFO: Tempo para sintese de SBM: 0.02 s
+2025-01-07 14:39:22,452 INFO: Realizando síntese de REE
+2025-01-07 14:39:22,467 INFO: Tempo para sintese de REE: 0.02 s
+2025-01-07 14:39:22,468 INFO: Realizando síntese de UTE
+2025-01-07 14:39:22,476 INFO: Tempo para sintese de UTE: 0.01 s
+2025-01-07 14:39:22,476 INFO: Realizando síntese de UHE
+2025-01-07 14:39:22,478 INFO: Tempo para sintese de UHE: 0.00 s
+2025-01-07 14:39:22,483 INFO: Tempo para sintese da sistema: 13.21 s
+2025-01-07 14:39:22,519 INFO: Realizando síntese de PROGRAMA
+2025-01-07 14:39:22,521 INFO: Tempo para sintese de PROGRAMA: 0.00 s
+2025-01-07 14:39:22,522 INFO: Realizando síntese de CONVERGENCIA
+2025-01-07 14:39:22,562 INFO: Tempo para sintese de CONVERGENCIA: 0.04 s
+2025-01-07 14:39:22,562 INFO: Realizando síntese de TEMPO
+2025-01-07 14:39:22,566 INFO: Tempo para sintese de TEMPO: 0.00 s
+2025-01-07 14:39:22,567 INFO: Realizando síntese de CUSTOS
+2025-01-07 14:39:22,606 INFO: Tempo para sintese de CUSTOS: 0.04 s
+2025-01-07 14:39:22,611 INFO: Tempo para sintese da execucao: 0.13 s
+2025-01-07 14:39:22,649 INFO: Sinteses: [CMO_SBM, VAGUA_REE, VAGUA_UHE, VAGUAI_UHE, CTER_SBM, CTER_SIN, COP_SIN, CFU_SIN, CTO_SIN, ENAA_REE, ENAA_SBM, ENAA_SIN, ENAAR_REE, ENAAR_SBM, ENAAR_SIN, ENAAF_REE, ENAAF_SBM, ENAAF_SIN, EARPI_REE, EARPI_SBM, EARPI_SIN, EARPF_REE, EARPF_SBM, EARPF_SIN, EARMI_REE, EARMI_SBM, EARMI_SIN, EARMF_REE, EARMF_SBM, EARMF_SIN, GHIDR_REE, GHIDR_SBM, GHIDR_SIN, GHID_REE, GHID_SBM, GHID_SIN, GHIDF_REE, GHIDF_SBM, GHIDF_SIN, GTER_SBM, GTER_SIN, GTER_UTE, EVER_REE, EVER_SBM, EVER_SIN, EVERR_REE, EVERR_SBM, EVERR_SIN, EVERF_REE, EVERF_SBM, EVERF_SIN, EVERFT_REE, EVERFT_SBM, EVERFT_SIN, EDESR_REE, EDESR_SBM, EDESR_SIN, EDESF_REE, EDESF_SBM, EDESF_SIN, EVMIN_REE, EVMIN_SBM, EVMIN_SIN, EVMOR_REE, EVMOR_SBM, EVMOR_SIN, EEVAP_REE, EEVAP_SBM, EEVAP_SIN, VGHMIN_REE, VGHMIN_SBM, VGHMIN_SIN, VTUR_UHE, VVER_UHE, QTUR_UHE, QVER_UHE, QAFL_UHE, QINC_UHE, VAFL_UHE, VINC_UHE, QDEF_UHE, VDEF_UHE, VRET_UHE, VDES_UHE, QRET_UHE, QDES_UHE, VTUR_REE, VVER_REE, QTUR_REE, QVER_REE, QAFL_REE, QINC_REE, VAFL_REE, VINC_REE, QDEF_REE, VDEF_REE, VRET_REE, VDES_REE, QRET_REE, QDES_REE, VTUR_SBM, VVER_SBM, QTUR_SBM, QVER_SBM, QAFL_SBM, QINC_SBM, VAFL_SBM, VINC_SBM, QDEF_SBM, VDEF_SBM, VRET_SBM, VDES_SBM, QRET_SBM, QDES_SBM, VTUR_SIN, VVER_SIN, QTUR_SIN, QVER_SIN, QAFL_SIN, QINC_SIN, VAFL_SIN, VINC_SIN, QDEF_SIN, VDEF_SIN, VRET_SIN, VDES_SIN, QRET_SIN, QDES_SIN, VARMI_UHE, VARMI_REE, VARMI_SBM, VARMI_SIN, VARMF_UHE, VARMF_REE, VARMF_SBM, VARMF_SIN, VARPI_UHE, VARPF_UHE, GHID_UHE, INT_SBP, DEF_SBM, DEF_SIN, EXC_SBM, EXC_SIN, CDEF_SBM, CDEF_SIN, MERL_SBM, MERL_SIN, VGHMIN_UHE, VFPHA_UHE, VFPHA_REE, VFPHA_SBM, VFPHA_SIN, HMON_UHE, HJUS_UHE, HLIQ_UHE, VEVP_UHE, VEVP_REE, VEVP_SBM, VEVP_SIN, VEVAP_UHE, VEVAP_REE, VEVAP_SBM, VEVAP_SIN]
+2025-01-07 14:39:22,654 INFO: Realizando sintese de CMO_SBM
+2025-01-07 14:39:27,025 INFO: Tempo para obter dados de SBM: 4.37 s
+2025-01-07 14:39:27,035 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:27,037 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:27,043 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:27,049 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:27,049 INFO: Tempo para sintese de CMO_SBM: 4.39 s
+2025-01-07 14:39:27,050 INFO: Realizando sintese de VAGUA_REE
+2025-01-07 14:39:31,401 INFO: Tempo para ler dados de REE: 4.35 s
+2025-01-07 14:39:31,428 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:39:31,431 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:31,438 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:31,446 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:31,447 INFO: Tempo para sintese de VAGUA_REE: 4.40 s
+2025-01-07 14:39:31,447 INFO: Realizando sintese de VAGUA_UHE
+2025-01-07 14:39:36,807 INFO: Tempo para ler dados de UHE: 5.36 s
+2025-01-07 14:39:36,966 INFO: Tempo para compactacao dos dados: 0.16 s
+2025-01-07 14:39:36,976 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:37,032 INFO: Tempo para preparacao para exportacao: 0.06 s
+2025-01-07 14:39:37,058 INFO: Tempo para exportacao dos dados: 0.03 s
+2025-01-07 14:39:37,058 INFO: Tempo para sintese de VAGUA_UHE: 5.61 s
+2025-01-07 14:39:37,059 INFO: Realizando sintese de VAGUAI_UHE
+2025-01-07 14:39:41,766 INFO: Tempo para ler dados de UHE: 4.70 s
+2025-01-07 14:39:41,812 INFO: Tempo para compactacao dos dados: 0.05 s
+2025-01-07 14:39:41,815 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:41,835 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:39:41,850 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:41,850 INFO: Tempo para sintese de VAGUAI_UHE: 4.79 s
+2025-01-07 14:39:41,851 INFO: Realizando sintese de CTER_SBM
+2025-01-07 14:39:45,802 INFO: Tempo para obter dados de SBM: 3.95 s
+2025-01-07 14:39:45,811 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:45,812 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:45,819 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:45,828 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:45,829 INFO: Tempo para sintese de CTER_SBM: 3.98 s
+2025-01-07 14:39:45,829 INFO: Realizando sintese de CTER_SIN
+2025-01-07 14:39:49,044 INFO: Tempo para obter dados do SIN: 3.21 s
+2025-01-07 14:39:49,048 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:49,049 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:49,054 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:39:49,059 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:49,059 INFO: Tempo para sintese de CTER_SIN: 3.23 s
+2025-01-07 14:39:49,059 INFO: Realizando sintese de COP_SIN
+2025-01-07 14:39:49,111 INFO: Tempo para obter dados do SIN: 0.05 s
+2025-01-07 14:39:49,114 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:49,114 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:49,118 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:39:49,119 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:39:49,122 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:49,122 INFO: Tempo para sintese de COP_SIN: 0.06 s
+2025-01-07 14:39:49,123 INFO: Realizando sintese de CFU_SIN
+2025-01-07 14:39:49,170 INFO: Tempo para obter dados do SIN: 0.05 s
+2025-01-07 14:39:49,172 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:49,173 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:49,177 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:39:49,177 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:39:49,180 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:49,180 INFO: Tempo para sintese de CFU_SIN: 0.06 s
+2025-01-07 14:39:49,180 INFO: Realizando sintese de CTO_SIN
+2025-01-07 14:39:49,182 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:49,182 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:49,196 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:49,199 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:49,199 INFO: Tempo para sintese de CTO_SIN: 0.02 s
+2025-01-07 14:39:49,199 INFO: Realizando sintese de ENAA_REE
+2025-01-07 14:39:49,436 INFO: Tempo para ler dados de REE: 0.24 s
+2025-01-07 14:39:49,452 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:49,454 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:49,463 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:49,472 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:49,473 INFO: Tempo para sintese de ENAA_REE: 0.27 s
+2025-01-07 14:39:49,473 INFO: Realizando sintese de ENAA_SBM
+2025-01-07 14:39:49,658 INFO: Tempo para obter dados de SBM: 0.18 s
+2025-01-07 14:39:49,666 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:49,667 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:49,673 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:49,680 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:49,681 INFO: Tempo para sintese de ENAA_SBM: 0.21 s
+2025-01-07 14:39:49,681 INFO: Realizando sintese de ENAA_SIN
+2025-01-07 14:39:49,738 INFO: Tempo para obter dados do SIN: 0.06 s
+2025-01-07 14:39:49,741 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:49,741 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:49,745 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:39:49,749 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:49,750 INFO: Tempo para sintese de ENAA_SIN: 0.07 s
+2025-01-07 14:39:49,750 INFO: Realizando sintese de ENAAR_REE
+2025-01-07 14:39:50,026 INFO: Tempo para ler dados de REE: 0.27 s
+2025-01-07 14:39:50,039 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:50,041 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:50,049 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:50,056 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:50,057 INFO: Tempo para sintese de ENAAR_REE: 0.31 s
+2025-01-07 14:39:50,057 INFO: Realizando sintese de ENAAR_SBM
+2025-01-07 14:39:50,222 INFO: Tempo para obter dados de SBM: 0.16 s
+2025-01-07 14:39:50,229 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:50,230 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:50,235 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:39:50,247 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:50,249 INFO: Tempo para sintese de ENAAR_SBM: 0.19 s
+2025-01-07 14:39:50,249 INFO: Realizando sintese de ENAAR_SIN
+2025-01-07 14:39:50,333 INFO: Tempo para obter dados do SIN: 0.08 s
+2025-01-07 14:39:50,340 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:50,342 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:50,350 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:50,363 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:50,364 INFO: Tempo para sintese de ENAAR_SIN: 0.11 s
+2025-01-07 14:39:50,365 INFO: Realizando sintese de ENAAF_REE
+2025-01-07 14:39:50,588 INFO: Tempo para ler dados de REE: 0.22 s
+2025-01-07 14:39:50,603 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:50,605 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:50,616 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:50,626 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:50,626 INFO: Tempo para sintese de ENAAF_REE: 0.26 s
+2025-01-07 14:39:50,627 INFO: Realizando sintese de ENAAF_SBM
+2025-01-07 14:39:50,803 INFO: Tempo para obter dados de SBM: 0.17 s
+2025-01-07 14:39:50,811 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:50,813 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:50,821 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:50,827 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:50,827 INFO: Tempo para sintese de ENAAF_SBM: 0.20 s
+2025-01-07 14:39:50,827 INFO: Realizando sintese de ENAAF_SIN
+2025-01-07 14:39:50,882 INFO: Tempo para obter dados do SIN: 0.05 s
+2025-01-07 14:39:50,885 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:50,885 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:50,890 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:39:50,894 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:50,894 INFO: Tempo para sintese de ENAAF_SIN: 0.07 s
+2025-01-07 14:39:50,895 INFO: Realizando sintese de EARPF_REE
+2025-01-07 14:39:51,128 INFO: Tempo para ler dados de REE: 0.23 s
+2025-01-07 14:39:51,139 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:51,466 INFO: Tempo para calculo dos limites: 0.33 s
+2025-01-07 14:39:51,472 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:39:51,472 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:51,478 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:51,479 INFO: Tempo para sintese de EARPF_REE: 0.58 s
+2025-01-07 14:39:51,479 INFO: Realizando sintese de EARPI_REE
+2025-01-07 14:39:51,527 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:51,541 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:39:51,566 INFO: Tempo para preparacao para exportacao: 0.03 s
+2025-01-07 14:39:51,574 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:51,574 INFO: Tempo para sintese de EARPI_REE: 0.10 s
+2025-01-07 14:39:51,574 INFO: Realizando sintese de EARPF_SBM
+2025-01-07 14:39:51,735 INFO: Tempo para obter dados de SBM: 0.16 s
+2025-01-07 14:39:51,742 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:51,750 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:39:51,755 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:39:51,756 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:51,762 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:51,763 INFO: Tempo para sintese de EARPF_SBM: 0.19 s
+2025-01-07 14:39:51,763 INFO: Realizando sintese de EARPI_SBM
+2025-01-07 14:39:51,769 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:51,778 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:39:51,797 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:39:51,804 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:51,804 INFO: Tempo para sintese de EARPI_SBM: 0.04 s
+2025-01-07 14:39:51,805 INFO: Realizando sintese de EARPF_SIN
+2025-01-07 14:39:51,857 INFO: Tempo para obter dados do SIN: 0.05 s
+2025-01-07 14:39:51,860 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:51,864 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:51,869 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:39:51,869 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:39:51,874 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:51,874 INFO: Tempo para sintese de EARPF_SIN: 0.07 s
+2025-01-07 14:39:51,874 INFO: Realizando sintese de EARPI_SIN
+2025-01-07 14:39:51,879 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:51,885 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:39:51,901 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:39:51,905 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:51,906 INFO: Tempo para sintese de EARPI_SIN: 0.03 s
+2025-01-07 14:39:51,906 INFO: Realizando sintese de EARMF_REE
+2025-01-07 14:39:52,133 INFO: Tempo para ler dados de REE: 0.23 s
+2025-01-07 14:39:52,143 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:52,154 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:39:52,160 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:39:52,160 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:52,167 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:52,167 INFO: Tempo para sintese de EARMF_REE: 0.26 s
+2025-01-07 14:39:52,167 INFO: Realizando sintese de EARMI_REE
+2025-01-07 14:39:52,171 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:52,183 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:39:52,207 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:39:52,215 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:52,215 INFO: Tempo para sintese de EARMI_REE: 0.05 s
+2025-01-07 14:39:52,216 INFO: Realizando sintese de EARMF_SBM
+2025-01-07 14:39:52,390 INFO: Tempo para obter dados de SBM: 0.17 s
+2025-01-07 14:39:52,396 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:52,404 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:39:52,409 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:39:52,409 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:39:52,414 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:52,414 INFO: Tempo para sintese de EARMF_SBM: 0.20 s
+2025-01-07 14:39:52,414 INFO: Realizando sintese de EARMI_SBM
+2025-01-07 14:39:52,420 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:52,427 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:39:52,444 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:39:52,449 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:52,449 INFO: Tempo para sintese de EARMI_SBM: 0.04 s
+2025-01-07 14:39:52,450 INFO: Realizando sintese de EARMF_SIN
+2025-01-07 14:39:52,495 INFO: Tempo para obter dados do SIN: 0.04 s
+2025-01-07 14:39:52,497 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:52,501 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:52,504 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:39:52,504 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:39:52,507 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:52,507 INFO: Tempo para sintese de EARMF_SIN: 0.06 s
+2025-01-07 14:39:52,507 INFO: Realizando sintese de EARMI_SIN
+2025-01-07 14:39:52,511 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:52,516 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:39:52,531 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:52,533 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:52,533 INFO: Tempo para sintese de EARMI_SIN: 0.03 s
+2025-01-07 14:39:52,534 INFO: Realizando sintese de GHIDR_REE
+2025-01-07 14:39:52,803 INFO: Tempo para ler dados de REE: 0.27 s
+2025-01-07 14:39:52,829 INFO: Tempo para compactacao dos dados: 0.02 s
+2025-01-07 14:39:52,831 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:52,845 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:52,855 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:52,855 INFO: Tempo para sintese de GHIDR_REE: 0.32 s
+2025-01-07 14:39:52,855 INFO: Realizando sintese de GHIDR_SBM
+2025-01-07 14:39:53,015 INFO: Tempo para obter dados de SBM: 0.16 s
+2025-01-07 14:39:53,029 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:53,031 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:53,041 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:53,050 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:53,051 INFO: Tempo para sintese de GHIDR_SBM: 0.20 s
+2025-01-07 14:39:53,051 INFO: Realizando sintese de GHIDR_SIN
+2025-01-07 14:39:53,111 INFO: Tempo para obter dados do SIN: 0.06 s
+2025-01-07 14:39:53,114 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:53,114 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:53,118 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:39:53,123 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:53,123 INFO: Tempo para sintese de GHIDR_SIN: 0.07 s
+2025-01-07 14:39:53,123 INFO: Realizando sintese de GHID_REE
+2025-01-07 14:39:53,410 INFO: Tempo para ler dados de REE: 0.29 s
+2025-01-07 14:39:53,433 INFO: Tempo para compactacao dos dados: 0.02 s
+2025-01-07 14:39:53,435 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:53,448 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:53,459 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:53,459 INFO: Tempo para sintese de GHID_REE: 0.34 s
+2025-01-07 14:39:53,459 INFO: Realizando sintese de GHID_SBM
+2025-01-07 14:39:53,656 INFO: Tempo para obter dados de SBM: 0.19 s
+2025-01-07 14:39:53,667 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:53,668 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:53,679 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:53,687 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:53,687 INFO: Tempo para sintese de GHID_SBM: 0.23 s
+2025-01-07 14:39:53,687 INFO: Realizando sintese de GHID_SIN
+2025-01-07 14:39:53,751 INFO: Tempo para obter dados do SIN: 0.06 s
+2025-01-07 14:39:53,755 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:53,755 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:53,760 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:39:53,765 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:53,766 INFO: Tempo para sintese de GHID_SIN: 0.08 s
+2025-01-07 14:39:53,766 INFO: Realizando sintese de GHIDF_REE
+2025-01-07 14:39:53,979 INFO: Tempo para ler dados de REE: 0.21 s
+2025-01-07 14:39:53,999 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:54,001 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:54,010 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:54,017 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:54,017 INFO: Tempo para sintese de GHIDF_REE: 0.25 s
+2025-01-07 14:39:54,018 INFO: Realizando sintese de GHIDF_SBM
+2025-01-07 14:39:54,169 INFO: Tempo para obter dados de SBM: 0.15 s
+2025-01-07 14:39:54,175 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:54,176 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:54,181 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:39:54,187 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:54,187 INFO: Tempo para sintese de GHIDF_SBM: 0.17 s
+2025-01-07 14:39:54,187 INFO: Realizando sintese de GHIDF_SIN
+2025-01-07 14:39:54,238 INFO: Tempo para obter dados do SIN: 0.05 s
+2025-01-07 14:39:54,241 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:54,242 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:54,247 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:39:54,252 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:54,253 INFO: Tempo para sintese de GHIDF_SIN: 0.07 s
+2025-01-07 14:39:54,253 INFO: Realizando sintese de GTER_SBM
+2025-01-07 14:39:54,455 INFO: Tempo para obter dados de SBM: 0.20 s
+2025-01-07 14:39:54,466 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:55,171 INFO: Tempo para calculo dos limites: 0.70 s
+2025-01-07 14:39:55,183 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:55,190 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:55,190 INFO: Tempo para sintese de GTER_SBM: 0.94 s
+2025-01-07 14:39:55,191 INFO: Realizando sintese de GTER_SIN
+2025-01-07 14:39:55,245 INFO: Tempo para obter dados do SIN: 0.05 s
+2025-01-07 14:39:55,248 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:55,258 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:39:55,262 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:39:55,267 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:55,267 INFO: Tempo para sintese de GTER_SIN: 0.08 s
+2025-01-07 14:39:55,267 INFO: Realizando sintese de GTER_UTE
+2025-01-07 14:39:55,855 INFO: Tempo para ler dados de UTE: 0.59 s
+2025-01-07 14:39:56,045 INFO: Tempo para compactacao dos dados: 0.19 s
+2025-01-07 14:39:56,151 INFO: Tempo para calculo dos limites: 0.10 s
+2025-01-07 14:39:56,247 INFO: Tempo para preparacao para exportacao: 0.10 s
+2025-01-07 14:39:56,285 INFO: Tempo para exportacao dos dados: 0.04 s
+2025-01-07 14:39:56,285 INFO: Tempo para sintese de GTER_UTE: 1.02 s
+2025-01-07 14:39:56,286 INFO: Realizando sintese de EVERR_REE
+2025-01-07 14:39:56,613 INFO: Tempo para ler dados de REE: 0.32 s
+2025-01-07 14:39:56,633 INFO: Tempo para compactacao dos dados: 0.02 s
+2025-01-07 14:39:56,634 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:56,645 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:39:56,645 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:56,654 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:56,654 INFO: Tempo para sintese de EVERR_REE: 0.37 s
+2025-01-07 14:39:56,654 INFO: Realizando sintese de EVERF_REE
+2025-01-07 14:39:56,920 INFO: Tempo para ler dados de REE: 0.26 s
+2025-01-07 14:39:56,933 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:56,934 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:56,942 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:39:56,943 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:56,950 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:56,950 INFO: Tempo para sintese de EVERF_REE: 0.30 s
+2025-01-07 14:39:56,950 INFO: Realizando sintese de EVER_REE
+2025-01-07 14:39:56,953 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:56,954 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:56,981 INFO: Tempo para preparacao para exportacao: 0.03 s
+2025-01-07 14:39:56,988 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:56,989 INFO: Tempo para sintese de EVER_REE: 0.04 s
+2025-01-07 14:39:56,989 INFO: Realizando sintese de EVERR_SBM
+2025-01-07 14:39:57,167 INFO: Tempo para obter dados de SBM: 0.18 s
+2025-01-07 14:39:57,176 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:57,177 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:57,182 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:39:57,183 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:57,188 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:57,188 INFO: Tempo para sintese de EVERR_SBM: 0.20 s
+2025-01-07 14:39:57,188 INFO: Realizando sintese de EVERF_SBM
+2025-01-07 14:39:57,391 INFO: Tempo para obter dados de SBM: 0.20 s
+2025-01-07 14:39:57,406 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:57,408 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:57,416 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:39:57,416 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:57,424 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:57,424 INFO: Tempo para sintese de EVERF_SBM: 0.24 s
+2025-01-07 14:39:57,424 INFO: Realizando sintese de EVER_SBM
+2025-01-07 14:39:57,426 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:57,427 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:57,445 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:39:57,450 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:57,450 INFO: Tempo para sintese de EVER_SBM: 0.03 s
+2025-01-07 14:39:57,450 INFO: Realizando sintese de EVERR_SIN
+2025-01-07 14:39:57,497 INFO: Tempo para obter dados do SIN: 0.05 s
+2025-01-07 14:39:57,499 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:57,499 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:57,503 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:39:57,503 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:39:57,507 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:57,507 INFO: Tempo para sintese de EVERR_SIN: 0.06 s
+2025-01-07 14:39:57,507 INFO: Realizando sintese de EVERF_SIN
+2025-01-07 14:39:57,560 INFO: Tempo para obter dados do SIN: 0.05 s
+2025-01-07 14:39:57,562 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:57,563 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:57,567 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:39:57,567 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:39:57,571 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:57,571 INFO: Tempo para sintese de EVERF_SIN: 0.06 s
+2025-01-07 14:39:57,572 INFO: Realizando sintese de EVER_SIN
+2025-01-07 14:39:57,573 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:57,574 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:57,590 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:39:57,593 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:57,593 INFO: Tempo para sintese de EVER_SIN: 0.02 s
+2025-01-07 14:39:57,593 INFO: Realizando sintese de EVERFT_REE
+2025-01-07 14:39:57,791 INFO: Tempo para ler dados de REE: 0.20 s
+2025-01-07 14:39:57,809 INFO: Tempo para compactacao dos dados: 0.02 s
+2025-01-07 14:39:57,812 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:57,821 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:57,829 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:57,829 INFO: Tempo para sintese de EVERFT_REE: 0.24 s
+2025-01-07 14:39:57,830 INFO: Realizando sintese de EVERFT_SBM
+2025-01-07 14:39:58,022 INFO: Tempo para obter dados de SBM: 0.19 s
+2025-01-07 14:39:58,029 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:58,031 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:58,036 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:58,042 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:58,043 INFO: Tempo para sintese de EVERFT_SBM: 0.21 s
+2025-01-07 14:39:58,043 INFO: Realizando sintese de EVERFT_SIN
+2025-01-07 14:39:58,097 INFO: Tempo para obter dados do SIN: 0.05 s
+2025-01-07 14:39:58,100 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:58,101 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:58,105 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:39:58,109 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:58,109 INFO: Tempo para sintese de EVERFT_SIN: 0.07 s
+2025-01-07 14:39:58,109 INFO: Realizando sintese de EDESR_REE
+2025-01-07 14:39:59,378 INFO: Tempo para ler dados de REE: 1.27 s
+2025-01-07 14:39:59,390 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:59,391 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:59,399 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:59,406 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:59,406 INFO: Tempo para sintese de EDESR_REE: 1.30 s
+2025-01-07 14:39:59,406 INFO: Realizando sintese de EDESR_SBM
+2025-01-07 14:39:59,574 INFO: Tempo para obter dados de SBM: 0.17 s
+2025-01-07 14:39:59,582 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:59,583 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:59,589 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:59,597 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:59,598 INFO: Tempo para sintese de EDESR_SBM: 0.19 s
+2025-01-07 14:39:59,598 INFO: Realizando sintese de EDESR_SIN
+2025-01-07 14:39:59,648 INFO: Tempo para obter dados do SIN: 0.05 s
+2025-01-07 14:39:59,651 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:39:59,651 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:59,655 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:39:59,658 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:39:59,659 INFO: Tempo para sintese de EDESR_SIN: 0.06 s
+2025-01-07 14:39:59,659 INFO: Realizando sintese de EDESF_REE
+2025-01-07 14:39:59,878 INFO: Tempo para ler dados de REE: 0.22 s
+2025-01-07 14:39:59,892 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:39:59,893 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:39:59,901 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:39:59,908 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:39:59,909 INFO: Tempo para sintese de EDESF_REE: 0.25 s
+2025-01-07 14:39:59,909 INFO: Realizando sintese de EDESF_SBM
+2025-01-07 14:40:00,087 INFO: Tempo para obter dados de SBM: 0.18 s
+2025-01-07 14:40:00,094 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:00,095 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:00,100 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:40:00,107 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:00,107 INFO: Tempo para sintese de EDESF_SBM: 0.20 s
+2025-01-07 14:40:00,108 INFO: Realizando sintese de EDESF_SIN
+2025-01-07 14:40:00,157 INFO: Tempo para obter dados do SIN: 0.05 s
+2025-01-07 14:40:00,159 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:40:00,160 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:00,164 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:40:00,167 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:00,167 INFO: Tempo para sintese de EDESF_SIN: 0.06 s
+2025-01-07 14:40:00,168 INFO: Realizando sintese de MEVMIN_REE
+2025-01-07 14:40:00,367 INFO: Tempo para ler dados de REE: 0.20 s
+2025-01-07 14:40:00,381 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:00,383 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:00,390 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:00,390 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:40:00,396 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:00,397 INFO: Tempo para sintese de MEVMIN_REE: 0.23 s
+2025-01-07 14:40:00,397 INFO: Realizando sintese de VEVMIN_REE
+2025-01-07 14:40:00,585 INFO: Tempo para ler dados de REE: 0.19 s
+2025-01-07 14:40:00,596 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:00,597 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:00,603 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:00,604 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:40:00,610 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:00,610 INFO: Tempo para sintese de VEVMIN_REE: 0.21 s
+2025-01-07 14:40:00,610 INFO: Realizando sintese de EVMIN_REE
+2025-01-07 14:40:00,612 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:40:00,613 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:00,635 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:00,640 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:00,640 INFO: Tempo para sintese de EVMIN_REE: 0.03 s
+2025-01-07 14:40:00,641 INFO: Realizando sintese de MEVMIN_SBM
+2025-01-07 14:40:00,806 INFO: Tempo para obter dados de SBM: 0.16 s
+2025-01-07 14:40:00,813 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:00,814 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:00,819 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:00,819 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:40:00,824 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:00,825 INFO: Tempo para sintese de MEVMIN_SBM: 0.18 s
+2025-01-07 14:40:00,825 INFO: Realizando sintese de VEVMIN_SBM
+2025-01-07 14:40:00,963 INFO: Tempo para obter dados de SBM: 0.14 s
+2025-01-07 14:40:00,974 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:00,975 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:00,982 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:00,982 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:40:00,989 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:00,990 INFO: Tempo para sintese de VEVMIN_SBM: 0.16 s
+2025-01-07 14:40:00,990 INFO: Realizando sintese de EVMIN_SBM
+2025-01-07 14:40:00,992 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:40:00,993 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:01,011 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:01,017 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:01,017 INFO: Tempo para sintese de EVMIN_SBM: 0.03 s
+2025-01-07 14:40:01,017 INFO: Realizando sintese de MEVMIN_SIN
+2025-01-07 14:40:01,073 INFO: Tempo para obter dados do SIN: 0.06 s
+2025-01-07 14:40:01,078 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:40:01,079 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:01,084 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:01,085 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:40:01,091 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:01,091 INFO: Tempo para sintese de MEVMIN_SIN: 0.07 s
+2025-01-07 14:40:01,092 INFO: Realizando sintese de VEVMIN_SIN
+2025-01-07 14:40:01,154 INFO: Tempo para obter dados do SIN: 0.06 s
+2025-01-07 14:40:01,158 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:40:01,159 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:01,164 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:01,165 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:40:01,169 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:01,169 INFO: Tempo para sintese de VEVMIN_SIN: 0.08 s
+2025-01-07 14:40:01,169 INFO: Realizando sintese de EVMIN_SIN
+2025-01-07 14:40:01,170 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:40:01,171 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:01,186 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:40:01,188 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:01,189 INFO: Tempo para sintese de EVMIN_SIN: 0.02 s
+2025-01-07 14:40:01,189 INFO: Realizando sintese de EVMOR_REE
+2025-01-07 14:40:01,383 INFO: Tempo para ler dados de REE: 0.19 s
+2025-01-07 14:40:01,397 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:01,399 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:01,405 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:40:01,413 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:01,414 INFO: Tempo para sintese de EVMOR_REE: 0.23 s
+2025-01-07 14:40:01,414 INFO: Realizando sintese de EVMOR_SBM
+2025-01-07 14:40:01,586 INFO: Tempo para obter dados de SBM: 0.17 s
+2025-01-07 14:40:01,593 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:01,594 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:01,599 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:40:01,605 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:01,605 INFO: Tempo para sintese de EVMOR_SBM: 0.19 s
+2025-01-07 14:40:01,605 INFO: Realizando sintese de EVMOR_SIN
+2025-01-07 14:40:01,653 INFO: Tempo para obter dados do SIN: 0.05 s
+2025-01-07 14:40:01,655 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:40:01,656 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:01,659 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:40:01,663 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:01,663 INFO: Tempo para sintese de EVMOR_SIN: 0.06 s
+2025-01-07 14:40:01,663 INFO: Realizando sintese de EEVAP_REE
+2025-01-07 14:40:01,881 INFO: Tempo para ler dados de REE: 0.22 s
+2025-01-07 14:40:01,890 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:01,891 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:01,897 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:40:01,908 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:01,910 INFO: Tempo para sintese de EEVAP_REE: 0.25 s
+2025-01-07 14:40:01,910 INFO: Realizando sintese de EEVAP_SBM
+2025-01-07 14:40:02,064 INFO: Tempo para obter dados de SBM: 0.15 s
+2025-01-07 14:40:02,070 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:02,071 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:02,078 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:40:02,088 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:02,089 INFO: Tempo para sintese de EEVAP_SBM: 0.18 s
+2025-01-07 14:40:02,089 INFO: Realizando sintese de EEVAP_SIN
+2025-01-07 14:40:02,146 INFO: Tempo para obter dados do SIN: 0.06 s
+2025-01-07 14:40:02,149 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:40:02,150 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:02,154 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:40:02,157 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:02,158 INFO: Tempo para sintese de EEVAP_SIN: 0.07 s
+2025-01-07 14:40:02,158 INFO: Realizando sintese de VGHMIN_REE
+2025-01-07 14:40:02,419 INFO: Tempo para ler dados de REE: 0.26 s
+2025-01-07 14:40:02,466 INFO: Tempo para compactacao dos dados: 0.04 s
+2025-01-07 14:40:02,470 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:02,496 INFO: Tempo para preparacao para exportacao: 0.03 s
+2025-01-07 14:40:02,511 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:02,511 INFO: Tempo para sintese de VGHMIN_REE: 0.35 s
+2025-01-07 14:40:02,511 INFO: Realizando sintese de VGHMIN_SBM
+2025-01-07 14:40:02,738 INFO: Tempo para obter dados de SBM: 0.22 s
+2025-01-07 14:40:02,749 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:02,750 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:02,758 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:40:02,771 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:02,771 INFO: Tempo para sintese de VGHMIN_SBM: 0.26 s
+2025-01-07 14:40:02,772 INFO: Realizando sintese de VGHMIN_SIN
+2025-01-07 14:40:02,838 INFO: Tempo para obter dados do SIN: 0.07 s
+2025-01-07 14:40:02,842 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:40:02,843 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:02,848 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:40:02,855 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:02,855 INFO: Tempo para sintese de VGHMIN_SIN: 0.08 s
+2025-01-07 14:40:02,856 INFO: Realizando sintese de QTUR_UHE
+2025-01-07 14:40:04,542 INFO: Tempo para ler dados de UHE: 1.68 s
+2025-01-07 14:40:04,860 INFO: Tempo para compactacao dos dados: 0.31 s
+2025-01-07 14:40:06,758 INFO: Tempo para calculo dos limites: 1.89 s
+2025-01-07 14:40:06,898 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:06,899 INFO: Tempo para preparacao para exportacao: 0.14 s
+2025-01-07 14:40:06,959 INFO: Tempo para exportacao dos dados: 0.06 s
+2025-01-07 14:40:06,959 INFO: Tempo para sintese de QTUR_UHE: 4.10 s
+2025-01-07 14:40:06,959 INFO: Realizando sintese de VTUR_UHE
+2025-01-07 14:40:06,985 INFO: Tempo para compactacao dos dados: 0.02 s
+2025-01-07 14:40:07,107 INFO: Tempo para calculo dos limites: 0.12 s
+2025-01-07 14:40:07,489 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:07,489 INFO: Tempo para preparacao para exportacao: 0.38 s
+2025-01-07 14:40:07,555 INFO: Tempo para exportacao dos dados: 0.07 s
+2025-01-07 14:40:07,555 INFO: Tempo para sintese de VTUR_UHE: 0.60 s
+2025-01-07 14:40:07,555 INFO: Realizando sintese de QVER_UHE
+2025-01-07 14:40:09,067 INFO: Tempo para ler dados de UHE: 1.51 s
+2025-01-07 14:40:09,359 INFO: Tempo para compactacao dos dados: 0.29 s
+2025-01-07 14:40:09,384 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:09,599 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:09,599 INFO: Tempo para preparacao para exportacao: 0.21 s
+2025-01-07 14:40:09,696 INFO: Tempo para exportacao dos dados: 0.10 s
+2025-01-07 14:40:09,697 INFO: Tempo para sintese de QVER_UHE: 2.14 s
+2025-01-07 14:40:09,697 INFO: Realizando sintese de VVER_UHE
+2025-01-07 14:40:09,742 INFO: Tempo para compactacao dos dados: 0.04 s
+2025-01-07 14:40:09,745 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:10,246 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:10,249 INFO: Tempo para preparacao para exportacao: 0.50 s
+2025-01-07 14:40:10,331 INFO: Tempo para exportacao dos dados: 0.08 s
+2025-01-07 14:40:10,331 INFO: Tempo para sintese de VVER_UHE: 0.63 s
+2025-01-07 14:40:10,332 INFO: Realizando sintese de QAFL_UHE
+2025-01-07 14:40:11,760 INFO: Tempo para ler dados de UHE: 1.43 s
+2025-01-07 14:40:11,853 INFO: Tempo para compactacao dos dados: 0.09 s
+2025-01-07 14:40:11,861 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:11,901 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:11,902 INFO: Tempo para preparacao para exportacao: 0.04 s
+2025-01-07 14:40:11,928 INFO: Tempo para exportacao dos dados: 0.03 s
+2025-01-07 14:40:11,929 INFO: Tempo para sintese de QAFL_UHE: 1.60 s
+2025-01-07 14:40:11,929 INFO: Realizando sintese de QINC_UHE
+2025-01-07 14:40:13,286 INFO: Tempo para ler dados de UHE: 1.35 s
+2025-01-07 14:40:13,391 INFO: Tempo para compactacao dos dados: 0.10 s
+2025-01-07 14:40:13,398 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:13,439 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:13,439 INFO: Tempo para preparacao para exportacao: 0.04 s
+2025-01-07 14:40:13,463 INFO: Tempo para exportacao dos dados: 0.02 s
+2025-01-07 14:40:13,463 INFO: Tempo para sintese de QINC_UHE: 1.53 s
+2025-01-07 14:40:13,464 INFO: Realizando sintese de VAFL_UHE
+2025-01-07 14:40:13,473 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:13,474 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:13,592 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:13,593 INFO: Tempo para preparacao para exportacao: 0.12 s
+2025-01-07 14:40:13,615 INFO: Tempo para exportacao dos dados: 0.02 s
+2025-01-07 14:40:13,615 INFO: Tempo para sintese de VAFL_UHE: 0.15 s
+2025-01-07 14:40:13,616 INFO: Realizando sintese de VINC_UHE
+2025-01-07 14:40:13,624 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:13,626 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:13,746 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:13,747 INFO: Tempo para preparacao para exportacao: 0.12 s
+2025-01-07 14:40:13,770 INFO: Tempo para exportacao dos dados: 0.02 s
+2025-01-07 14:40:13,771 INFO: Tempo para sintese de VINC_UHE: 0.15 s
+2025-01-07 14:40:13,771 INFO: Realizando sintese de QDEF_UHE
+2025-01-07 14:40:13,810 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:14,080 INFO: Tempo para calculo dos limites: 0.27 s
+2025-01-07 14:40:14,475 INFO: Tempo para preparacao para exportacao: 0.39 s
+2025-01-07 14:40:14,539 INFO: Tempo para exportacao dos dados: 0.06 s
+2025-01-07 14:40:14,539 INFO: Tempo para sintese de QDEF_UHE: 0.77 s
+2025-01-07 14:40:14,539 INFO: Realizando sintese de VDEF_UHE
+2025-01-07 14:40:14,576 INFO: Tempo para compactacao dos dados: 0.02 s
+2025-01-07 14:40:14,698 INFO: Tempo para calculo dos limites: 0.12 s
+2025-01-07 14:40:15,081 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:15,082 INFO: Tempo para preparacao para exportacao: 0.38 s
+2025-01-07 14:40:15,157 INFO: Tempo para exportacao dos dados: 0.07 s
+2025-01-07 14:40:15,157 INFO: Tempo para sintese de VDEF_UHE: 0.62 s
+2025-01-07 14:40:15,157 INFO: Realizando sintese de VRET_UHE
+2025-01-07 14:40:16,382 INFO: Tempo para ler dados de UHE: 1.22 s
+2025-01-07 14:40:16,466 INFO: Tempo para compactacao dos dados: 0.08 s
+2025-01-07 14:40:16,476 ERROR: Erro no calculo de limites: 'utf-8' codec can't decode byte 0xc7 in position 1729: invalid continuation byte
+2025-01-07 14:40:16,477 ERROR: Considerando variavel ilimitada.
+2025-01-07 14:40:16,478 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:16,512 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:16,513 INFO: Tempo para preparacao para exportacao: 0.03 s
+2025-01-07 14:40:16,531 INFO: Tempo para exportacao dos dados: 0.02 s
+2025-01-07 14:40:16,531 INFO: Tempo para sintese de VRET_UHE: 1.37 s
+2025-01-07 14:40:16,531 INFO: Realizando sintese de QDES_UHE
+2025-01-07 14:40:18,086 INFO: Tempo para ler dados de UHE: 1.55 s
+2025-01-07 14:40:18,350 INFO: Tempo para compactacao dos dados: 0.26 s
+2025-01-07 14:40:18,357 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:18,500 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:18,501 INFO: Tempo para preparacao para exportacao: 0.14 s
+2025-01-07 14:40:18,562 INFO: Tempo para exportacao dos dados: 0.06 s
+2025-01-07 14:40:18,563 INFO: Tempo para sintese de QDES_UHE: 2.03 s
+2025-01-07 14:40:18,564 INFO: Realizando sintese de VDES_UHE
+2025-01-07 14:40:18,592 INFO: Tempo para compactacao dos dados: 0.02 s
+2025-01-07 14:40:18,593 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:18,994 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:18,994 INFO: Tempo para preparacao para exportacao: 0.40 s
+2025-01-07 14:40:19,048 INFO: Tempo para exportacao dos dados: 0.05 s
+2025-01-07 14:40:19,049 INFO: Tempo para sintese de VDES_UHE: 0.48 s
+2025-01-07 14:40:19,049 INFO: Realizando sintese de QRET_UHE
+2025-01-07 14:40:19,058 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:19,063 ERROR: Erro no calculo de limites: 'utf-8' codec can't decode byte 0xc7 in position 1729: invalid continuation byte
+2025-01-07 14:40:19,064 ERROR: Considerando variavel ilimitada.
+2025-01-07 14:40:19,064 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:19,177 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:19,178 INFO: Tempo para preparacao para exportacao: 0.11 s
+2025-01-07 14:40:19,197 INFO: Tempo para exportacao dos dados: 0.02 s
+2025-01-07 14:40:19,197 INFO: Tempo para sintese de QRET_UHE: 0.15 s
+2025-01-07 14:40:19,197 INFO: Realizando sintese de VTUR_REE
+2025-01-07 14:40:19,235 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:19,267 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:19,312 INFO: Tempo para preparacao para exportacao: 0.04 s
+2025-01-07 14:40:19,322 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:19,323 INFO: Tempo para sintese de VTUR_REE: 0.13 s
+2025-01-07 14:40:19,323 INFO: Realizando sintese de VVER_REE
+2025-01-07 14:40:19,358 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:19,389 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:19,432 INFO: Tempo para preparacao para exportacao: 0.04 s
+2025-01-07 14:40:19,442 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:19,442 INFO: Tempo para sintese de VVER_REE: 0.12 s
+2025-01-07 14:40:19,442 INFO: Realizando sintese de QTUR_REE
+2025-01-07 14:40:19,476 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:19,510 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:19,555 INFO: Tempo para preparacao para exportacao: 0.04 s
+2025-01-07 14:40:19,566 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:19,567 INFO: Tempo para sintese de QTUR_REE: 0.12 s
+2025-01-07 14:40:19,567 INFO: Realizando sintese de QVER_REE
+2025-01-07 14:40:19,599 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:19,631 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:19,674 INFO: Tempo para preparacao para exportacao: 0.04 s
+2025-01-07 14:40:19,684 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:19,684 INFO: Tempo para sintese de QVER_REE: 0.12 s
+2025-01-07 14:40:19,685 INFO: Realizando sintese de QAFL_REE
+2025-01-07 14:40:19,697 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:19,708 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:19,733 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:19,739 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:19,740 INFO: Tempo para sintese de QAFL_REE: 0.05 s
+2025-01-07 14:40:19,740 INFO: Realizando sintese de QINC_REE
+2025-01-07 14:40:19,750 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:19,761 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:19,786 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:19,793 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:19,793 INFO: Tempo para sintese de QINC_REE: 0.05 s
+2025-01-07 14:40:19,793 INFO: Realizando sintese de VAFL_REE
+2025-01-07 14:40:19,804 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:19,815 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:19,841 INFO: Tempo para preparacao para exportacao: 0.03 s
+2025-01-07 14:40:19,849 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:19,849 INFO: Tempo para sintese de VAFL_REE: 0.06 s
+2025-01-07 14:40:19,849 INFO: Realizando sintese de VINC_REE
+2025-01-07 14:40:19,859 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:19,870 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:19,896 INFO: Tempo para preparacao para exportacao: 0.03 s
+2025-01-07 14:40:19,903 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:19,904 INFO: Tempo para sintese de VINC_REE: 0.05 s
+2025-01-07 14:40:19,904 INFO: Realizando sintese de QDEF_REE
+2025-01-07 14:40:19,941 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:19,975 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:20,026 INFO: Tempo para preparacao para exportacao: 0.05 s
+2025-01-07 14:40:20,037 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:20,037 INFO: Tempo para sintese de QDEF_REE: 0.13 s
+2025-01-07 14:40:20,037 INFO: Realizando sintese de VDEF_REE
+2025-01-07 14:40:20,072 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:20,104 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:20,151 INFO: Tempo para preparacao para exportacao: 0.05 s
+2025-01-07 14:40:20,161 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:20,162 INFO: Tempo para sintese de VDEF_REE: 0.12 s
+2025-01-07 14:40:20,162 INFO: Realizando sintese de VRET_REE
+2025-01-07 14:40:20,172 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:20,182 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:20,208 INFO: Tempo para preparacao para exportacao: 0.03 s
+2025-01-07 14:40:20,218 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:20,218 INFO: Tempo para sintese de VRET_REE: 0.06 s
+2025-01-07 14:40:20,218 INFO: Realizando sintese de VDES_REE
+2025-01-07 14:40:20,252 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:20,286 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:20,334 INFO: Tempo para preparacao para exportacao: 0.05 s
+2025-01-07 14:40:20,345 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:20,346 INFO: Tempo para sintese de VDES_REE: 0.13 s
+2025-01-07 14:40:20,346 INFO: Realizando sintese de QRET_REE
+2025-01-07 14:40:20,358 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:20,372 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:20,400 INFO: Tempo para preparacao para exportacao: 0.03 s
+2025-01-07 14:40:20,409 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:20,409 INFO: Tempo para sintese de QRET_REE: 0.06 s
+2025-01-07 14:40:20,410 INFO: Realizando sintese de QDES_REE
+2025-01-07 14:40:20,445 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:20,477 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:20,527 INFO: Tempo para preparacao para exportacao: 0.05 s
+2025-01-07 14:40:20,536 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:20,537 INFO: Tempo para sintese de QDES_REE: 0.13 s
+2025-01-07 14:40:20,537 INFO: Realizando sintese de VTUR_SBM
+2025-01-07 14:40:20,572 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:20,600 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:20,627 INFO: Tempo para preparacao para exportacao: 0.03 s
+2025-01-07 14:40:20,634 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:20,635 INFO: Tempo para sintese de VTUR_SBM: 0.10 s
+2025-01-07 14:40:20,635 INFO: Realizando sintese de VVER_SBM
+2025-01-07 14:40:20,668 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:20,696 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:20,721 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:20,728 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:20,728 INFO: Tempo para sintese de VVER_SBM: 0.09 s
+2025-01-07 14:40:20,728 INFO: Realizando sintese de QTUR_SBM
+2025-01-07 14:40:20,762 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:20,791 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:20,816 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:20,822 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:20,823 INFO: Tempo para sintese de QTUR_SBM: 0.09 s
+2025-01-07 14:40:20,823 INFO: Realizando sintese de QVER_SBM
+2025-01-07 14:40:20,856 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:20,884 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:20,912 INFO: Tempo para preparacao para exportacao: 0.03 s
+2025-01-07 14:40:20,920 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:20,920 INFO: Tempo para sintese de QVER_SBM: 0.10 s
+2025-01-07 14:40:20,920 INFO: Realizando sintese de QAFL_SBM
+2025-01-07 14:40:20,931 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:20,942 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:20,961 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:20,966 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:20,966 INFO: Tempo para sintese de QAFL_SBM: 0.05 s
+2025-01-07 14:40:20,966 INFO: Realizando sintese de QINC_SBM
+2025-01-07 14:40:20,976 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:20,987 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:21,008 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:21,014 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:21,014 INFO: Tempo para sintese de QINC_SBM: 0.05 s
+2025-01-07 14:40:21,015 INFO: Realizando sintese de VAFL_SBM
+2025-01-07 14:40:21,029 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:21,039 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:21,059 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:21,064 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:21,065 INFO: Tempo para sintese de VAFL_SBM: 0.05 s
+2025-01-07 14:40:21,065 INFO: Realizando sintese de VINC_SBM
+2025-01-07 14:40:21,075 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:21,085 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:21,103 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:21,108 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:21,108 INFO: Tempo para sintese de VINC_SBM: 0.04 s
+2025-01-07 14:40:21,109 INFO: Realizando sintese de QDEF_SBM
+2025-01-07 14:40:21,141 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:21,170 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:21,197 INFO: Tempo para preparacao para exportacao: 0.03 s
+2025-01-07 14:40:21,204 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:21,204 INFO: Tempo para sintese de QDEF_SBM: 0.10 s
+2025-01-07 14:40:21,204 INFO: Realizando sintese de VDEF_SBM
+2025-01-07 14:40:21,239 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:21,268 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:21,293 INFO: Tempo para preparacao para exportacao: 0.03 s
+2025-01-07 14:40:21,301 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:21,302 INFO: Tempo para sintese de VDEF_SBM: 0.10 s
+2025-01-07 14:40:21,303 INFO: Realizando sintese de VRET_SBM
+2025-01-07 14:40:21,316 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:21,326 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:21,345 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:21,351 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:21,352 INFO: Tempo para sintese de VRET_SBM: 0.05 s
+2025-01-07 14:40:21,352 INFO: Realizando sintese de VDES_SBM
+2025-01-07 14:40:21,392 INFO: Tempo para compactacao dos dados: 0.04 s
+2025-01-07 14:40:21,419 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:21,446 INFO: Tempo para preparacao para exportacao: 0.03 s
+2025-01-07 14:40:21,452 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:21,453 INFO: Tempo para sintese de VDES_SBM: 0.10 s
+2025-01-07 14:40:21,453 INFO: Realizando sintese de QRET_SBM
+2025-01-07 14:40:21,462 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:21,473 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:21,493 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:21,498 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:21,498 INFO: Tempo para sintese de QRET_SBM: 0.05 s
+2025-01-07 14:40:21,498 INFO: Realizando sintese de QDES_SBM
+2025-01-07 14:40:21,531 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:21,561 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:21,589 INFO: Tempo para preparacao para exportacao: 0.03 s
+2025-01-07 14:40:21,596 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:21,596 INFO: Tempo para sintese de QDES_SBM: 0.10 s
+2025-01-07 14:40:21,596 INFO: Realizando sintese de VTUR_SIN
+2025-01-07 14:40:21,625 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:21,651 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:21,669 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:21,674 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:21,675 INFO: Tempo para sintese de VTUR_SIN: 0.08 s
+2025-01-07 14:40:21,675 INFO: Realizando sintese de VVER_SIN
+2025-01-07 14:40:21,702 INFO: Tempo para compactacao dos dados: 0.02 s
+2025-01-07 14:40:21,729 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:21,746 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:21,753 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:21,753 INFO: Tempo para sintese de VVER_SIN: 0.08 s
+2025-01-07 14:40:21,753 INFO: Realizando sintese de QTUR_SIN
+2025-01-07 14:40:21,781 INFO: Tempo para compactacao dos dados: 0.02 s
+2025-01-07 14:40:21,808 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:21,825 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:21,831 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:21,831 INFO: Tempo para sintese de QTUR_SIN: 0.08 s
+2025-01-07 14:40:21,831 INFO: Realizando sintese de QVER_SIN
+2025-01-07 14:40:21,860 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:21,887 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:21,904 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:21,909 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:21,910 INFO: Tempo para sintese de QVER_SIN: 0.08 s
+2025-01-07 14:40:21,910 INFO: Realizando sintese de QAFL_SIN
+2025-01-07 14:40:21,920 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:21,930 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:21,946 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:21,950 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:21,950 INFO: Tempo para sintese de QAFL_SIN: 0.04 s
+2025-01-07 14:40:21,950 INFO: Realizando sintese de QINC_SIN
+2025-01-07 14:40:21,960 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:21,971 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:21,990 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:21,994 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:21,994 INFO: Tempo para sintese de QINC_SIN: 0.04 s
+2025-01-07 14:40:21,994 INFO: Realizando sintese de VAFL_SIN
+2025-01-07 14:40:22,003 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:22,012 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:22,028 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:22,032 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:22,032 INFO: Tempo para sintese de VAFL_SIN: 0.04 s
+2025-01-07 14:40:22,032 INFO: Realizando sintese de VINC_SIN
+2025-01-07 14:40:22,041 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:22,050 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:22,065 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:22,069 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:22,069 INFO: Tempo para sintese de VINC_SIN: 0.04 s
+2025-01-07 14:40:22,070 INFO: Realizando sintese de QDEF_SIN
+2025-01-07 14:40:22,097 INFO: Tempo para compactacao dos dados: 0.02 s
+2025-01-07 14:40:22,124 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:22,144 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:22,149 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:22,149 INFO: Tempo para sintese de QDEF_SIN: 0.08 s
+2025-01-07 14:40:22,149 INFO: Realizando sintese de VDEF_SIN
+2025-01-07 14:40:22,179 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:22,205 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:22,223 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:22,228 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:22,229 INFO: Tempo para sintese de VDEF_SIN: 0.08 s
+2025-01-07 14:40:22,229 INFO: Realizando sintese de VRET_SIN
+2025-01-07 14:40:22,238 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:22,247 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:22,263 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:22,267 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:22,267 INFO: Tempo para sintese de VRET_SIN: 0.04 s
+2025-01-07 14:40:22,268 INFO: Realizando sintese de VDES_SIN
+2025-01-07 14:40:22,296 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:22,323 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:22,342 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:22,347 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:22,348 INFO: Tempo para sintese de VDES_SIN: 0.08 s
+2025-01-07 14:40:22,348 INFO: Realizando sintese de QRET_SIN
+2025-01-07 14:40:22,359 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:22,369 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:22,386 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:22,389 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:22,390 INFO: Tempo para sintese de QRET_SIN: 0.04 s
+2025-01-07 14:40:22,390 INFO: Realizando sintese de QDES_SIN
+2025-01-07 14:40:22,420 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:22,446 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:22,465 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:22,470 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:22,470 INFO: Tempo para sintese de QDES_SIN: 0.08 s
+2025-01-07 14:40:22,471 INFO: Realizando sintese de VARMF_UHE
+2025-01-07 14:40:23,272 INFO: Tempo para ler dados de UHE: 0.80 s
+2025-01-07 14:40:23,311 INFO: Tempo para compactacao dos dados: 0.04 s
+2025-01-07 14:40:25,566 INFO: Tempo para calculo dos limites: 2.25 s
+2025-01-07 14:40:25,584 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:25,585 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:25,596 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:25,597 INFO: Tempo para sintese de VARMF_UHE: 3.13 s
+2025-01-07 14:40:25,597 INFO: Realizando sintese de VARMI_UHE
+2025-01-07 14:40:25,651 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:40:25,689 INFO: Tempo para calculo dos limites: 0.04 s
+2025-01-07 14:40:25,767 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:25,768 INFO: Tempo para preparacao para exportacao: 0.08 s
+2025-01-07 14:40:25,789 INFO: Tempo para exportacao dos dados: 0.02 s
+2025-01-07 14:40:25,790 INFO: Tempo para sintese de VARMI_UHE: 0.19 s
+2025-01-07 14:40:25,790 INFO: Realizando sintese de VARMI_REE
+2025-01-07 14:40:25,802 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:25,829 INFO: Tempo para calculo dos limites: 0.03 s
+2025-01-07 14:40:25,853 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:25,859 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:25,859 INFO: Tempo para sintese de VARMI_REE: 0.07 s
+2025-01-07 14:40:25,860 INFO: Realizando sintese de VARMI_SBM
+2025-01-07 14:40:25,866 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:25,884 INFO: Tempo para calculo dos limites: 0.02 s
+2025-01-07 14:40:25,906 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:25,911 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:25,911 INFO: Tempo para sintese de VARMI_SBM: 0.05 s
+2025-01-07 14:40:25,911 INFO: Realizando sintese de VARMI_SIN
+2025-01-07 14:40:25,917 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:25,931 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:25,949 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:25,954 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:25,954 INFO: Tempo para sintese de VARMI_SIN: 0.04 s
+2025-01-07 14:40:25,954 INFO: Realizando sintese de VARMF_REE
+2025-01-07 14:40:25,962 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:25,985 INFO: Tempo para calculo dos limites: 0.02 s
+2025-01-07 14:40:26,014 INFO: Tempo para preparacao para exportacao: 0.03 s
+2025-01-07 14:40:26,021 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:26,022 INFO: Tempo para sintese de VARMF_REE: 0.07 s
+2025-01-07 14:40:26,022 INFO: Realizando sintese de VARMF_SBM
+2025-01-07 14:40:26,029 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:26,045 INFO: Tempo para calculo dos limites: 0.02 s
+2025-01-07 14:40:26,068 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:26,074 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:26,074 INFO: Tempo para sintese de VARMF_SBM: 0.05 s
+2025-01-07 14:40:26,074 INFO: Realizando sintese de VARMF_SIN
+2025-01-07 14:40:26,081 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:26,093 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:26,113 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:26,117 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:26,117 INFO: Tempo para sintese de VARMF_SIN: 0.04 s
+2025-01-07 14:40:26,117 INFO: Realizando sintese de VARPF_UHE
+2025-01-07 14:40:27,688 INFO: Tempo para ler dados de UHE: 1.57 s
+2025-01-07 14:40:27,781 INFO: Tempo para compactacao dos dados: 0.09 s
+2025-01-07 14:40:27,871 INFO: Tempo para calculo dos limites: 0.09 s
+2025-01-07 14:40:27,910 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:27,911 INFO: Tempo para preparacao para exportacao: 0.04 s
+2025-01-07 14:40:27,933 INFO: Tempo para exportacao dos dados: 0.02 s
+2025-01-07 14:40:27,934 INFO: Tempo para sintese de VARPF_UHE: 1.82 s
+2025-01-07 14:40:27,934 INFO: Realizando sintese de VARPI_UHE
+2025-01-07 14:40:27,945 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:28,025 INFO: Tempo para calculo dos limites: 0.08 s
+2025-01-07 14:40:28,143 INFO: Tempo para preparacao para exportacao: 0.12 s
+2025-01-07 14:40:28,161 INFO: Tempo para exportacao dos dados: 0.02 s
+2025-01-07 14:40:28,161 INFO: Tempo para sintese de VARPI_UHE: 0.23 s
+2025-01-07 14:40:28,161 INFO: Realizando sintese de GHID_UHE
+2025-01-07 14:40:29,824 INFO: Tempo para ler dados de UHE: 1.66 s
+2025-01-07 14:40:30,090 INFO: Tempo para compactacao dos dados: 0.27 s
+2025-01-07 14:40:30,097 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:30,244 INFO: Tempo para preparacao para exportacao: 0.15 s
+2025-01-07 14:40:30,307 INFO: Tempo para exportacao dos dados: 0.06 s
+2025-01-07 14:40:30,308 INFO: Tempo para sintese de GHID_UHE: 2.15 s
+2025-01-07 14:40:30,308 INFO: Realizando sintese de INT_SBP
+2025-01-07 14:40:30,625 INFO: Tempo para obter dados de SBP: 0.31 s
+2025-01-07 14:40:30,647 INFO: Tempo para compactacao dos dados: 0.02 s
+2025-01-07 14:40:31,820 INFO: Tempo para calculo dos limites: 1.17 s
+2025-01-07 14:40:31,834 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:40:31,843 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:31,844 INFO: Tempo para sintese de INT_SBP: 1.54 s
+2025-01-07 14:40:31,844 INFO: Realizando sintese de DEF_SBM
+2025-01-07 14:40:32,119 INFO: Tempo para obter dados de SBM: 0.27 s
+2025-01-07 14:40:32,134 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:32,136 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:32,146 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:40:32,152 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:32,152 INFO: Tempo para sintese de DEF_SBM: 0.31 s
+2025-01-07 14:40:32,153 INFO: Realizando sintese de DEF_SIN
+2025-01-07 14:40:32,215 INFO: Tempo para obter dados do SIN: 0.06 s
+2025-01-07 14:40:32,218 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:40:32,219 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:32,224 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:40:32,229 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:32,229 INFO: Tempo para sintese de DEF_SIN: 0.08 s
+2025-01-07 14:40:32,229 INFO: Realizando sintese de EXC_SBM
+2025-01-07 14:40:32,530 INFO: Tempo para obter dados de SBM: 0.30 s
+2025-01-07 14:40:32,541 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:32,543 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:32,551 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:40:32,558 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:32,558 INFO: Tempo para sintese de EXC_SBM: 0.33 s
+2025-01-07 14:40:32,559 INFO: Realizando sintese de EXC_SIN
+2025-01-07 14:40:32,625 INFO: Tempo para obter dados do SIN: 0.07 s
+2025-01-07 14:40:32,629 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:40:32,629 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:32,634 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:40:32,639 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:32,639 INFO: Tempo para sintese de EXC_SIN: 0.08 s
+2025-01-07 14:40:32,639 INFO: Realizando sintese de CDEF_SBM
+2025-01-07 14:40:32,898 INFO: Tempo para obter dados de SBM: 0.26 s
+2025-01-07 14:40:32,906 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:32,907 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:32,913 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:40:32,920 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:32,920 INFO: Tempo para sintese de CDEF_SBM: 0.28 s
+2025-01-07 14:40:32,921 INFO: Realizando sintese de CDEF_SIN
+2025-01-07 14:40:32,970 INFO: Tempo para obter dados do SIN: 0.05 s
+2025-01-07 14:40:32,972 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:40:32,973 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:32,977 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:40:32,980 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:32,980 INFO: Tempo para sintese de CDEF_SIN: 0.06 s
+2025-01-07 14:40:32,980 INFO: Realizando sintese de MERL_SBM
+2025-01-07 14:40:33,219 INFO: Tempo para obter dados de SBM: 0.24 s
+2025-01-07 14:40:33,230 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:33,233 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:40:33,233 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:33,238 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:40:33,244 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:33,244 INFO: Tempo para sintese de MERL_SBM: 0.26 s
+2025-01-07 14:40:33,244 INFO: Realizando sintese de MERL_SIN
+2025-01-07 14:40:33,293 INFO: Tempo para obter dados do SIN: 0.05 s
+2025-01-07 14:40:33,296 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:40:33,297 INFO: Tempo para compactacao dos dados: 0.00 s
+2025-01-07 14:40:33,298 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:33,302 INFO: Tempo para preparacao para exportacao: 0.00 s
+2025-01-07 14:40:33,306 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:33,306 INFO: Tempo para sintese de MERL_SIN: 0.06 s
+2025-01-07 14:40:33,306 INFO: Realizando sintese de VGHMIN_UHE
+2025-01-07 14:40:34,817 INFO: Tempo para ler dados de UHE: 1.51 s
+2025-01-07 14:40:35,138 INFO: Tempo para compactacao dos dados: 0.32 s
+2025-01-07 14:40:35,149 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:35,279 INFO: Tempo para preparacao para exportacao: 0.13 s
+2025-01-07 14:40:35,346 INFO: Tempo para exportacao dos dados: 0.07 s
+2025-01-07 14:40:35,347 INFO: Tempo para sintese de VGHMIN_UHE: 2.04 s
+2025-01-07 14:40:35,347 INFO: Realizando sintese de VFPHA_UHE
+2025-01-07 14:40:36,944 INFO: Tempo para ler dados de UHE: 1.59 s
+2025-01-07 14:40:37,322 INFO: Tempo para compactacao dos dados: 0.38 s
+2025-01-07 14:40:37,338 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:37,483 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:37,483 INFO: Tempo para preparacao para exportacao: 0.15 s
+2025-01-07 14:40:37,540 INFO: Tempo para exportacao dos dados: 0.06 s
+2025-01-07 14:40:37,540 INFO: Tempo para sintese de VFPHA_UHE: 2.19 s
+2025-01-07 14:40:37,541 INFO: Realizando sintese de VFPHA_REE
+2025-01-07 14:40:37,574 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:37,575 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:37,979 INFO: Tempo para preparacao para exportacao: 0.40 s
+2025-01-07 14:40:38,029 INFO: Tempo para exportacao dos dados: 0.05 s
+2025-01-07 14:40:38,029 INFO: Tempo para sintese de VFPHA_REE: 0.49 s
+2025-01-07 14:40:38,030 INFO: Realizando sintese de VFPHA_SBM
+2025-01-07 14:40:38,065 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:38,066 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:38,483 INFO: Tempo para preparacao para exportacao: 0.42 s
+2025-01-07 14:40:38,532 INFO: Tempo para exportacao dos dados: 0.05 s
+2025-01-07 14:40:38,533 INFO: Tempo para sintese de VFPHA_SBM: 0.50 s
+2025-01-07 14:40:38,534 INFO: Realizando sintese de VFPHA_SIN
+2025-01-07 14:40:38,566 INFO: Tempo para compactacao dos dados: 0.03 s
+2025-01-07 14:40:38,567 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:38,970 INFO: Tempo para preparacao para exportacao: 0.40 s
+2025-01-07 14:40:39,014 INFO: Tempo para exportacao dos dados: 0.04 s
+2025-01-07 14:40:39,015 INFO: Tempo para sintese de VFPHA_SIN: 0.48 s
+2025-01-07 14:40:39,015 INFO: Realizando sintese de HMON_UHE
+2025-01-07 14:40:40,496 INFO: Tempo para ler dados de UHE: 1.48 s
+2025-01-07 14:40:40,578 INFO: Tempo para compactacao dos dados: 0.08 s
+2025-01-07 14:40:40,586 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:40,629 INFO: Tempo para preparacao para exportacao: 0.04 s
+2025-01-07 14:40:40,649 INFO: Tempo para exportacao dos dados: 0.02 s
+2025-01-07 14:40:40,650 INFO: Tempo para sintese de HMON_UHE: 1.63 s
+2025-01-07 14:40:40,650 INFO: Realizando sintese de HJUS_UHE
+2025-01-07 14:40:42,388 INFO: Tempo para ler dados de UHE: 1.74 s
+2025-01-07 14:40:42,704 INFO: Tempo para compactacao dos dados: 0.31 s
+2025-01-07 14:40:42,712 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:42,850 INFO: Tempo para preparacao para exportacao: 0.14 s
+2025-01-07 14:40:42,917 INFO: Tempo para exportacao dos dados: 0.07 s
+2025-01-07 14:40:42,917 INFO: Tempo para sintese de HJUS_UHE: 2.27 s
+2025-01-07 14:40:42,919 INFO: Realizando sintese de HLIQ_UHE
+2025-01-07 14:40:44,611 INFO: Tempo para ler dados de UHE: 1.69 s
+2025-01-07 14:40:44,868 INFO: Tempo para compactacao dos dados: 0.26 s
+2025-01-07 14:40:44,881 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:45,018 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:45,019 INFO: Tempo para preparacao para exportacao: 0.14 s
+2025-01-07 14:40:45,078 INFO: Tempo para exportacao dos dados: 0.06 s
+2025-01-07 14:40:45,078 INFO: Tempo para sintese de HLIQ_UHE: 2.16 s
+2025-01-07 14:40:45,079 INFO: Realizando sintese de VEVP_UHE
+2025-01-07 14:40:46,347 INFO: Tempo para ler dados de UHE: 1.27 s
+2025-01-07 14:40:46,422 INFO: Tempo para compactacao dos dados: 0.07 s
+2025-01-07 14:40:46,429 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:46,464 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:46,464 INFO: Tempo para preparacao para exportacao: 0.04 s
+2025-01-07 14:40:46,483 INFO: Tempo para exportacao dos dados: 0.02 s
+2025-01-07 14:40:46,483 INFO: Tempo para sintese de VEVP_UHE: 1.40 s
+2025-01-07 14:40:46,483 INFO: Realizando sintese de VEVP_REE
+2025-01-07 14:40:46,492 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:46,502 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:46,525 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:46,531 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:46,531 INFO: Tempo para sintese de VEVP_REE: 0.05 s
+2025-01-07 14:40:46,532 INFO: Realizando sintese de VEVP_SBM
+2025-01-07 14:40:46,540 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:46,549 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:46,566 INFO: Tempo para preparacao para exportacao: 0.02 s
+2025-01-07 14:40:46,572 INFO: Tempo para exportacao dos dados: 0.01 s
+2025-01-07 14:40:46,573 INFO: Tempo para sintese de VEVP_SBM: 0.04 s
+2025-01-07 14:40:46,573 INFO: Realizando sintese de VEVP_SIN
+2025-01-07 14:40:46,580 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:46,588 INFO: Tempo para calculo dos limites: 0.01 s
+2025-01-07 14:40:46,602 INFO: Tempo para preparacao para exportacao: 0.01 s
+2025-01-07 14:40:46,605 INFO: Tempo para exportacao dos dados: 0.00 s
+2025-01-07 14:40:46,606 INFO: Tempo para sintese de VEVP_SIN: 0.03 s
+2025-01-07 14:40:46,606 INFO: Realizando sintese de VPOSEVAP_UHE
+2025-01-07 14:40:47,874 INFO: Tempo para ler dados de UHE: 1.27 s
+2025-01-07 14:40:47,958 INFO: Tempo para compactacao dos dados: 0.08 s
+2025-01-07 14:40:47,963 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:47,996 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:47,997 INFO: Tempo para preparacao para exportacao: 0.03 s
+2025-01-07 14:40:48,015 INFO: Tempo para exportacao dos dados: 0.02 s
+2025-01-07 14:40:48,016 INFO: Tempo para sintese de VPOSEVAP_UHE: 1.41 s
+2025-01-07 14:40:48,016 INFO: Realizando sintese de VNEGEVAP_UHE
+2025-01-07 14:40:49,409 INFO: Tempo para ler dados de UHE: 1.39 s
+2025-01-07 14:40:49,498 INFO: Tempo para compactacao dos dados: 0.09 s
+2025-01-07 14:40:49,505 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:49,542 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:49,542 INFO: Tempo para preparacao para exportacao: 0.04 s
+2025-01-07 14:40:49,561 INFO: Tempo para exportacao dos dados: 0.02 s
+2025-01-07 14:40:49,561 INFO: Tempo para sintese de VNEGEVAP_UHE: 1.55 s
+2025-01-07 14:40:49,562 INFO: Realizando sintese de VEVAP_UHE
+2025-01-07 14:40:49,571 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:49,572 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:49,700 INFO: Tempo para armazenamento na cache: 0.00 s
+2025-01-07 14:40:49,701 INFO: Tempo para preparacao para exportacao: 0.13 s
+2025-01-07 14:40:49,719 INFO: Tempo para exportacao dos dados: 0.02 s
+2025-01-07 14:40:49,719 INFO: Tempo para sintese de VEVAP_UHE: 0.16 s
+2025-01-07 14:40:49,719 INFO: Realizando sintese de VEVAP_REE
+2025-01-07 14:40:49,729 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:49,730 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:49,840 INFO: Tempo para preparacao para exportacao: 0.11 s
+2025-01-07 14:40:49,859 INFO: Tempo para exportacao dos dados: 0.02 s
+2025-01-07 14:40:49,859 INFO: Tempo para sintese de VEVAP_REE: 0.14 s
+2025-01-07 14:40:49,860 INFO: Realizando sintese de VEVAP_SBM
+2025-01-07 14:40:49,869 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:49,870 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:49,977 INFO: Tempo para preparacao para exportacao: 0.11 s
+2025-01-07 14:40:49,994 INFO: Tempo para exportacao dos dados: 0.02 s
+2025-01-07 14:40:49,995 INFO: Tempo para sintese de VEVAP_SBM: 0.13 s
+2025-01-07 14:40:49,995 INFO: Realizando sintese de VEVAP_SIN
+2025-01-07 14:40:50,004 INFO: Tempo para compactacao dos dados: 0.01 s
+2025-01-07 14:40:50,005 INFO: Tempo para calculo dos limites: 0.00 s
+2025-01-07 14:40:50,114 INFO: Tempo para preparacao para exportacao: 0.11 s
+2025-01-07 14:40:50,130 INFO: Tempo para exportacao dos dados: 0.02 s
+2025-01-07 14:40:50,130 INFO: Tempo para sintese de VEVAP_SIN: 0.14 s
+2025-01-07 14:40:50,875 INFO: Tempo para exportacao das estatisticas de SBM: 0.74 s
+2025-01-07 14:40:52,175 INFO: Tempo para exportacao das estatisticas de REE: 1.30 s
+2025-01-07 14:41:01,223 INFO: Tempo para exportacao das estatisticas de UHE: 9.05 s
+2025-01-07 14:41:01,886 INFO: Tempo para exportacao das estatisticas de SIN: 0.66 s
+2025-01-07 14:41:02,047 INFO: Tempo para exportacao das estatisticas de UTE: 0.16 s
+2025-01-07 14:41:02,071 INFO: Tempo para exportacao das estatisticas de SBP: 0.02 s
+2025-01-07 14:41:02,177 INFO: Tempo para sintese da operacao: 99.57 s
+2025-01-07 14:41:02,177 INFO: Realizando síntese de CORTES
+2025-01-07 14:41:02,177 INFO: Tempo para sintese de CORTES: 0.00 s
+2025-01-07 14:41:02,178 INFO: Realizando síntese de ESTADOS
+2025-01-07 14:41:02,178 INFO: Tempo para sintese de ESTADOS: 0.00 s
+2025-01-07 14:41:02,179 INFO: Tempo para sintese da politica: 0.00 s
+2025-01-07 14:41:02,180 INFO: # Fim da síntese #
+Compactando arquivos para deck_TesteBase.zip
+Compactando arquivos para operacao_TesteBase.zip
+Paralelizando em 10 processos
+Compactando arquivos para relatorios_TesteBase.zip
+Paralelizando em 10 processos
+Compactando arquivos para recursos_TesteBase.zip
+Paralelizando em 10 processos
+Compactando arquivos para cortes_TesteBase.zip
+Paralelizando em 10 processos
+Compactando arquivos para estados_TesteBase.zip
+Paralelizando em 10 processos
+Compactando arquivos para simulacao_TesteBase.zip
+Paralelizando em 10 processos
+Excluindo arquivos...
+Excluindo arquivos...
+Pós-processamento do NEWAVE feito em 14.32 segundos!

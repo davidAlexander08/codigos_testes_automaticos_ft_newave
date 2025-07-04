@@ -1,0 +1,55 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Programa Newave                                                        Versao 30.0.1             - Biblioteca Solucao PLs COIN  Versao 1.16
+Caso: PMO - AGOSTO - 2024 - sombra Hibrido - NW Versao 29.4                           
+Data: 07-01-2025                                                       Hora: 14h 30min 40.881sec 
+Numero de Processos:   10 (    1 no(s) )                               Sinalizadores p/Desempenho: 1 1 1 0 0 ( Ger Ext/Com 2 Niv/Arm Loc/ENA Mem/Cor Mem )
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Configuracao dos Nos/Processos: No    1 ( backtestpem-master ): Todos
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Tipo de Execucao: Politica e Simulacao Final                         
+Politica - Periodos:     0  60  60 ( Pre/Estudo/Pos )                  Simulacao Final - Periodos:     0  60   0 ( Pre/Estudo/Pos )
+           Series:      10                                                               Series:      10         ( Sinteticas )
+           Aberturas:    3
+           Iteracoes:    2   2     ( Min/Max )
+
+           Execucao Hibrida - Periodos Individualizados:    8   19 - Qte Usi Hid:  166
+                              Periodos com REEs:           20  120 - Qte REEs:      12
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Sinalizadores de Execucao:         1    1    1    0    1 2221 ( CVAR / Sel Cor / Ream / Ger Cen Eol / Base Frw->Bck / Qte Max PIs )
+Selecao de Cortes (Sel Cor=1):     1    1    2    0   12      ( Sel Bck / Sel Frw / Ite Inic / Jan Cor / Qte Cor )
+Reamostragem (Ream=1):             1    1    1                ( Tipo / Passo / Momento )
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+                    RELATORIO DE CONVERGENCIA
+   X----X----------------------X----------------------X----------------------X----------------------X--------------------X--------------------X--------------------X--------------------X----------------------X
+    ITER               LIMITE                 ZINF                  LIMITE                  ZSUP               DZINF              DZINF                 DZINF         DZINF-PASSO-REAM           ZSUP
+                      INFERIOR                                     SUPERIOR                                     (%)             (%DMAXCF)             (%MAXCF)               (%)
+   X----X----------------------X----------------------X----------------------X----------------------X--------------------X--------------------X--------------------X--------------------X----------------------X
+      1                71860.80               61611.55              113605.97               94450.45                                                                                                             B    000h00min13.000s
+      1                63182.81               61611.55              117466.74               94450.45                                                                                                             B     (99%)
+      1                62415.76               61611.55              104160.92               85005.40          -                              -                    -                    -              85005.40   B
+      2                61860.63               62016.20               74966.17               68935.27                                                                                                             B    000h00min10.000s
+      2                58935.41               62016.20               76254.44               68935.27                                                                                                             B     (99%)
+      2                54967.11               62016.20               68072.64               62041.74        0.657                        0.125                0.105                0.657              62041.74   B
+
+---------------------------------------
+
+Maximo Custo Futuro:          384422.84
+
+---------------------------------------
+
+Leitura de Dados:        000h 00min 01s
+Calculos Iniciais:       000h 07min 37s
+Calculo da Politica:     000h 00min 23s
+Simulacao Final:         000h 00min 21s
+Tempo Total:             000h 08min 22s
+
+---------------------------------------
+
+Iteracao   1 - Backward: 000h 00min 09s
+               Forward:  000h 00min 04s
+               Total:    000h 00min 13s
+Iteracao   2 - Backward: 000h 00min 06s
+               Forward:  000h 00min 04s
+               Total:    000h 00min 10s
+
+---------------------------------------

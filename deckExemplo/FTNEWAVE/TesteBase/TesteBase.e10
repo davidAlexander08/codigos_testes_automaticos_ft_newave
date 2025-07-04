@@ -1,0 +1,23 @@
+Fim do Processamento
+/home/pem/rotinas/sintetizador-newave/app/services/deck/bounds.py:953: RuntimeWarning: invalid value encountered in divide
+  lower_bounds = lower_bounds / upper_bounds * 100.0
+/home/pem/rotinas/sintetizador-newave/app/services/deck/bounds.py:953: RuntimeWarning: invalid value encountered in divide
+  lower_bounds = lower_bounds / upper_bounds * 100.0
+Traceback (most recent call last):
+  File "/home/pem/rotinas/plotador_dev/main.py", line 16, in <module>
+    main()
+  File "/home/pem/rotinas/plotador_dev/main.py", line 12, in main
+    cli()
+  File "/home/pem/rotinas/plotador_dev/venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/pem/rotinas/plotador_dev/venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/pem/rotinas/plotador_dev/venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/pem/rotinas/plotador_dev/venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/pem/rotinas/plotador_dev/venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/pem/rotinas/plotador_dev/apps/cli.py", line 148, in realiza_report
+    Report(outpath, arquivo_json, txt, nomearquivo, tipo, cronologico, conjunto, html, posnw, liminf, limsup, boxplot)
+TypeError: __init__() takes 12 positional arguments but 13 were given

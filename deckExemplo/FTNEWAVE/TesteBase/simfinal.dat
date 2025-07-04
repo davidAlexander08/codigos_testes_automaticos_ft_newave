@@ -1,0 +1,352 @@
+
+ CEPEL                         MODELO ESTRATEGICO DE GERACAO HIDROTERMICA A SUBSISTEMAS              VERSAO  30.0.1                                  
+                                                                                                         PAG.   0
+ PROGRAMA LICENCIADO PARA ONS                                                                                                                                                   
+
+ -----------------------------------------------------------------------------------------------------------------------------------
+ DATA : 07-01-2025 HORA :  14:39:02 CASO : PMO - AGOSTO - 2024 - sombra Hibrido - NW Versao 29.4                           
+ -----------------------------------------------------------------------------------------------------------------------------------
+ ***SIMULACAO FINAL***
+ -----------------------------------------------------------------------------------------------------------------------------------
+                    SIMULACAO FINAL (  10 SERIES)
+
+           CUSTO DE OPERACAO DAS SERIES SIMULADAS ($10^6)
+                            VALOR ESPERADO TOTAL:                 94026.40
+                 DESVIO PADRAO DO VALOR ESPERADO:                  6336.51
+
+
+
+             VALOR ESPERADO P/ PERIODO DE ESTUDO:                 94026.40
+                 DESVIO PADRAO DO VALOR ESPERADO:                  6336.51
+
+
+
+               CUSTO DE OPERACAO REFERENCIADO AO
+               PRIMEIRO MES DO PERIODO DE ESTUDO:                 94026.40
+                 DESVIO PADRAO DO VALOR ESPERADO:                  6336.51
+
+
+X---------------------------------------------------------------X
+
+                        RISCO ANUAL DE DEFICIT E E(ENS) (%)
+                                   SUBSISTEMA
+
+      SUDESTE       SUL           NORDESTE      NORTE     
+ ANO  RISCO   EENS  RISCO   EENS  RISCO   EENS  RISCO   EENS  
+        %    MWMES    %    MWMES    %    MWMES    %    MWMES    
+X----X-----X-------X-----X-------X-----X-------X-----X-------X
+ 2024   0.00     0.0  0.00     0.0  0.00     0.0  0.00     0.0
+ 2025   0.00     0.0  0.00     0.0  0.00     0.0  0.00     0.0
+ 2026   0.00     0.0  0.00     0.0  0.00     0.0  0.00     0.0
+ 2027   0.00     0.0  0.00     0.0  0.00     0.0  0.00     0.0
+ 2028   0.00     0.0  0.00     0.0  0.00     0.0  0.00     0.0
+
+     MEDIA DOS RISCOS ANUAIS DE DEFICIT (%) E E(ENS) - PERIODO DE PLANEJAMENTO
+        0.00     0.0  0.00     0.0  0.00     0.0  0.00     0.0
+
+                        RISCO ANUAL DE DEFICIT POR FALTA DE MAQUINA (%)
+ 2024   0.00         0.00         0.00         0.00
+ 2025   0.00         0.00         0.00         0.00
+ 2026   0.00         0.00         0.00         0.00
+ 2027   0.00         0.00         0.00         0.00
+ 2028   0.00         0.00         0.00         0.00
+
+                        RISCO ANUAL DE DEFICIT POR FALTA DE AGUA (%)
+ 2024   0.00         0.00         0.00         0.00
+ 2025   0.00         0.00         0.00         0.00
+ 2026   0.00         0.00         0.00         0.00
+ 2027   0.00         0.00         0.00         0.00
+ 2028   0.00         0.00         0.00         0.00
+
+
+
+                    EENS POR PATAMAR DE MERCADO E DEFICIT (MWmes)
+
+
+
+ANO  2024
+            SISTEMA  SUDESTE                  SISTEMA  SUL                      SISTEMA  NORDESTE                 SISTEMA  NORTE     
+  P.MERC    PDEF1   PDEF2   PDEF3   PDEF4     PDEF1   PDEF2   PDEF3   PDEF4     PDEF1   PDEF2   PDEF3   PDEF4     PDEF1   PDEF2   PDEF3   PDEF4
+     1       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0
+     2       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0
+     3       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0
+
+ANO  2025
+            SISTEMA  SUDESTE                  SISTEMA  SUL                      SISTEMA  NORDESTE                 SISTEMA  NORTE     
+  P.MERC    PDEF1   PDEF2   PDEF3   PDEF4     PDEF1   PDEF2   PDEF3   PDEF4     PDEF1   PDEF2   PDEF3   PDEF4     PDEF1   PDEF2   PDEF3   PDEF4
+     1       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0
+     2       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0
+     3       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0
+
+ANO  2026
+            SISTEMA  SUDESTE                  SISTEMA  SUL                      SISTEMA  NORDESTE                 SISTEMA  NORTE     
+  P.MERC    PDEF1   PDEF2   PDEF3   PDEF4     PDEF1   PDEF2   PDEF3   PDEF4     PDEF1   PDEF2   PDEF3   PDEF4     PDEF1   PDEF2   PDEF3   PDEF4
+     1       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0
+     2       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0
+     3       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0
+
+ANO  2027
+            SISTEMA  SUDESTE                  SISTEMA  SUL                      SISTEMA  NORDESTE                 SISTEMA  NORTE     
+  P.MERC    PDEF1   PDEF2   PDEF3   PDEF4     PDEF1   PDEF2   PDEF3   PDEF4     PDEF1   PDEF2   PDEF3   PDEF4     PDEF1   PDEF2   PDEF3   PDEF4
+     1       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0
+     2       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0
+     3       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0
+
+ANO  2028
+            SISTEMA  SUDESTE                  SISTEMA  SUL                      SISTEMA  NORDESTE                 SISTEMA  NORTE     
+  P.MERC    PDEF1   PDEF2   PDEF3   PDEF4     PDEF1   PDEF2   PDEF3   PDEF4     PDEF1   PDEF2   PDEF3   PDEF4     PDEF1   PDEF2   PDEF3   PDEF4
+     1       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0
+     2       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0
+     3       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0       0.0     0.0     0.0     0.0
+
+
+
+                    RISCO DE DEFICIT >   5.01% E  10.01% DO MERCADO (%)
+
+
+
+             SISTEMA SUDESTE   SISTEMA SUL       SISTEMA NORDESTE  SISTEMA NORTE     
+ANO 2024        0.00    0.00        0.00    0.00        0.00    0.00        0.00    0.00
+
+             SISTEMA SUDESTE   SISTEMA SUL       SISTEMA NORDESTE  SISTEMA NORTE     
+ANO 2025        0.00    0.00        0.00    0.00        0.00    0.00        0.00    0.00
+
+             SISTEMA SUDESTE   SISTEMA SUL       SISTEMA NORDESTE  SISTEMA NORTE     
+ANO 2026        0.00    0.00        0.00    0.00        0.00    0.00        0.00    0.00
+
+             SISTEMA SUDESTE   SISTEMA SUL       SISTEMA NORDESTE  SISTEMA NORTE     
+ANO 2027        0.00    0.00        0.00    0.00        0.00    0.00        0.00    0.00
+
+             SISTEMA SUDESTE   SISTEMA SUL       SISTEMA NORDESTE  SISTEMA NORTE     
+ANO 2028        0.00    0.00        0.00    0.00        0.00    0.00        0.00    0.00
+
+
+
+                    RISCO DE DEFICIT MEDIO ANUAL >   5.01% E  10.01% DO MERCADO (%)
+
+
+
+             SISTEMA SUDESTE   SISTEMA SUL       SISTEMA NORDESTE  SISTEMA NORTE     
+ANO 2024        0.00    0.00        0.00    0.00        0.00    0.00        0.00    0.00
+
+             SISTEMA SUDESTE   SISTEMA SUL       SISTEMA NORDESTE  SISTEMA NORTE     
+ANO 2025        0.00    0.00        0.00    0.00        0.00    0.00        0.00    0.00
+
+             SISTEMA SUDESTE   SISTEMA SUL       SISTEMA NORDESTE  SISTEMA NORTE     
+ANO 2026        0.00    0.00        0.00    0.00        0.00    0.00        0.00    0.00
+
+             SISTEMA SUDESTE   SISTEMA SUL       SISTEMA NORDESTE  SISTEMA NORTE     
+ANO 2027        0.00    0.00        0.00    0.00        0.00    0.00        0.00    0.00
+
+             SISTEMA SUDESTE   SISTEMA SUL       SISTEMA NORDESTE  SISTEMA NORTE     
+ANO 2028        0.00    0.00        0.00    0.00        0.00    0.00        0.00    0.00
+ 
+ 
+ 
+ 
+X--------------------------------------------------------------------------------------------------------------------------------------------------------X
+
+                    RISCO DE DEFICIT >   1.01%,   2.51%,   5.01% E  10.01% DO MERCADO (%)
+                                                              SISTEMA
+                            SUDESTE                             SUL                                 NORDESTE                            NORTE     
+                1.01%   2.51%   5.01%  10.01%       1.01%   2.51%   5.01%  10.01%       1.01%   2.51%   5.01%  10.01%       1.01%   2.51%   5.01%  10.01%
+X--------------------------------------------------------------------------------------------------------------------------------------------------------X
+ANO 2024        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00
+ANO 2025        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00
+ANO 2026        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00
+ANO 2027        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00
+ANO 2028        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00
+ 
+ 
+ 
+ 
+X--------------------------------------------------------------------------------------------------------------------------------------------------------X
+
+                    RISCO DE DEFICIT MEDIO ANUAL >   1.01% ,   2.51%,  5.01% E , 10.01% DO MERCADO (%)
+                                                              SISTEMA
+                            SUDESTE                             SUL                                 NORDESTE                            NORTE     
+                1.01%   2.51%   5.01%  10.01%       1.01%   2.51%   5.01%  10.01%       1.01%   2.51%   5.01%  10.01%       1.01%   2.51%   5.01%  10.01%
+X--------------------------------------------------------------------------------------------------------------------------------------------------------X
+ANO 2024        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00
+ANO 2025        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00
+ANO 2026        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00
+ANO 2027        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00
+ANO 2028        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00        0.00    0.00    0.00    0.00
+
+X------------------------------------------------------------X
+
+                       CUSTOS MARGINAIS DE OPERACAO ($/MWh)
+                                   SUBSISTEMA
+ ANO           SUDESTE                      SUL                          NORDESTE                     NORTE     
+          MEDIA     D.P. DA MEDIA      MEDIA     D.P. DA MEDIA      MEDIA     D.P. DA MEDIA      MEDIA     D.P. DA MEDIA
+X----X-------------X-------------X-------------X-------------X-------------X-------------X-------------X-------------X
+ 2024        0.45          0.07          0.45          0.07          0.45          0.07          0.45          0.07
+ 2025        9.54          7.80          9.54          7.80          9.45          7.81          9.49          7.80
+ 2026        0.64          0.29          0.64          0.29          0.52          0.22          0.53          0.22
+ 2027        0.16          0.10          0.16          0.10          0.11          0.08          0.12          0.08
+ 2028        0.00          0.00          0.00          0.00          0.00          0.00          0.00          0.00
+
+                 MEDIA E D.PADRAO DO VALOR ESPERADO DOS CUSTOS MARGINAIS DE OPERACAO - TODO O HORIZONTE
+
+             2.16          2.05          2.16          2.05          2.11          2.05          2.12          2.05
+
+                 MEDIA E D.PADRAO DO VALOR ESPERADO DOS CUSTOS MARGINAIS DE OPERACAO - PERIODO DE PLANEJAMENTO
+
+             2.16          1.65          2.16          1.65          2.11          1.65          2.12          1.65
+
+
+            X------------------------------------------------------X
+                 CUSTO DE OPERACAO DAS SERIES SIMULADAS ($10^6)
+
+                PARCELA           V.ESPERADO  D.P. DO V.E.     %
+            X------------------X-------------X-------------X-------X
+             GERACAO TERMICA        19256.85        218.90   20.48
+             DEFICIT                    0.00          0.00    0.00
+             VERTIMENTO                 0.00          0.00    0.00
+             EXCESSO ENERGIA            0.00          0.00    0.00
+             VIOLACAO CAR            7800.79       4371.82    8.30
+             VIOLACAO SAR               0.00          0.00    0.00
+             VIOL. OUTROS USOS          0.00          0.00    0.00
+             VIOLACAO EVMIN             0.00          0.00    0.00
+             VIOLACAO VZMIN          8783.77       1862.62    9.34
+             INTERCAMBIO                0.09          0.01    0.00
+             VIOL. INTERC. MIN.         0.00          0.00    0.00
+             VERT. FIO N. TURB.         0.00          0.00    0.00
+             VIOLACAO GHMIN             0.00          0.00    0.00
+             VIOLACAO GHMINU            0.00          0.00    0.00
+             VIOLACAO RETIRADA      13882.09       1307.99   14.76
+             VIOLACAO EMIS. GEE         0.00          0.00    0.00
+             CORTE GER. EOLICA          0.00          0.00    0.00
+             VIOL. DEFL. MAXIMA         0.00          0.00    0.00
+             VIOL. TURB. MAXIMO         0.00          0.00    0.00
+             VIOL. TURB. MINIMO     44228.88        526.10   47.04
+             VIOL.RLPP TURBMAX          0.00          0.00    0.00
+             VIOL.RLPP DEFLMAX          0.00          0.00    0.00
+             VIOL.RLPP TURBMAXU         0.00          0.00    0.00
+             VIOL.RLPP DEFLMAXU         0.00          0.00    0.00
+             VIOL. RESTELETRICA         0.00          0.00    0.00
+             VIOLACAO RHQ               0.00          0.00    0.00
+             VIOLACAO RHV               0.00          0.00    0.00
+             TURBINAMENTO UHE           0.68          0.01    0.00
+             VERTIMENTO UHE             0.24          0.02    0.00
+             VIOLACAO FPHA              0.00          0.00    0.00
+             VIOL. EVAP. UHE           73.01         47.74    0.08
+             DESVIO UHE                 0.00          0.00    0.00
+             VIOL.LIM.EST.BOMB.         0.00          0.00    0.00
+            X------------------X-------------X-------------X-------X
+
+
+            X------------------------------------------------------X
+                 VALOR ESPERADO PARA PERIODO DE ESTUDO ($10^6)
+
+                PARCELA           V.ESPERADO  D.P. DO V.E.     %
+            X------------------X-------------X-------------X-------X
+             GERACAO TERMICA        19256.85        218.90   20.48
+             DEFICIT                    0.00          0.00    0.00
+             VERTIMENTO                 0.00          0.00    0.00
+             EXCESSO ENERGIA            0.00          0.00    0.00
+             VIOLACAO CAR            7800.79       4371.82    8.30
+             VIOLACAO SAR               0.00          0.00    0.00
+             VIOL. OUTROS USOS          0.00          0.00    0.00
+             VIOLACAO EVMIN             0.00          0.00    0.00
+             VIOLACAO VZMIN          8783.77       1862.62    9.34
+             INTERCAMBIO                0.09          0.01    0.00
+             VIOL. INTERC. MIN.         0.00          0.00    0.00
+             VERT. FIO N. TURB.         0.00          0.00    0.00
+             VIOLACAO GHMIN             0.00          0.00    0.00
+             VIOLACAO GHMINU            0.00          0.00    0.00
+             VIOLACAO RETIRADA      13882.09       1307.99   14.76
+             VIOLACAO EMIS. GEE         0.00          0.00    0.00
+             CORTE GER. EOLICA          0.00          0.00    0.00
+             VIOL. DEFL. MAXIMA         0.00          0.00    0.00
+             VIOL. TURB. MAXIMO         0.00          0.00    0.00
+             VIOL. TURB. MINIMO     44228.88        526.10   47.04
+             VIOL.RLPP TURBMAX          0.00          0.00    0.00
+             VIOL.RLPP DEFLMAX          0.00          0.00    0.00
+             VIOL.RLPP TURBMAXU         0.00          0.00    0.00
+             VIOL.RLPP DEFLMAXU         0.00          0.00    0.00
+             VIOL. RESTELETRICA         0.00          0.00    0.00
+             VIOLACAO RHQ               0.00          0.00    0.00
+             VIOLACAO RHV               0.00          0.00    0.00
+             TURBINAMENTO UHE           0.68          0.01    0.00
+             VERTIMENTO UHE             0.24          0.02    0.00
+             VIOLACAO FPHA              0.00          0.00    0.00
+             VIOL. EVAP. UHE           73.01         47.74    0.08
+             DESVIO UHE                 0.00          0.00    0.00
+             VIOL.LIM.EST.BOMB.         0.00          0.00    0.00
+            X------------------X-------------X-------------X-------X
+
+
+            X------------------------------------------------------X
+                     CUSTO OPERACAO REFERENCIADO AO PRIMEIRO
+                          MES DO PERIODO ESTUDO ($10^6)
+
+                PARCELA           V.ESPERADO  D.P. DO V.E.     %
+            X------------------X-------------X-------------X-------X
+             GERACAO TERMICA        19256.85        218.90   20.48
+             DEFICIT                    0.00          0.00    0.00
+             VERTIMENTO                 0.00          0.00    0.00
+             EXCESSO ENERGIA            0.00          0.00    0.00
+             VIOLACAO CAR            7800.79       4371.82    8.30
+             VIOLACAO SAR               0.00          0.00    0.00
+             VIOL. OUTROS USOS          0.00          0.00    0.00
+             VIOLACAO EVMIN             0.00          0.00    0.00
+             VIOLACAO VZMIN          8783.77       1862.62    9.34
+             INTERCAMBIO                0.09          0.01    0.00
+             VIOL. INTERC. MIN.         0.00          0.00    0.00
+             VERT. FIO N. TURB.         0.00          0.00    0.00
+             VIOLACAO GHMIN             0.00          0.00    0.00
+             VIOLACAO GHMINU            0.00          0.00    0.00
+             VIOLACAO RETIRADA      13882.09       1307.99   14.76
+             VIOLACAO EMIS. GEE         0.00          0.00    0.00
+             CORTE GER. EOLICA          0.00          0.00    0.00
+             VIOL. DEFL. MAXIMA         0.00          0.00    0.00
+             VIOL. TURB. MAXIMO         0.00          0.00    0.00
+             VIOL. TURB. MINIMO     44228.88        526.10   47.04
+             VIOL.RLPP TURBMAX          0.00          0.00    0.00
+             VIOL.RLPP DEFLMAX          0.00          0.00    0.00
+             VIOL.RLPP TURBMAXU         0.00          0.00    0.00
+             VIOL.RLPP DEFLMAXU         0.00          0.00    0.00
+             VIOL. RESTELETRICA         0.00          0.00    0.00
+             VIOLACAO RHQ               0.00          0.00    0.00
+             VIOLACAO RHV               0.00          0.00    0.00
+             TURBINAMENTO UHE           0.68          0.01    0.00
+             VERTIMENTO UHE             0.24          0.02    0.00
+             VIOLACAO FPHA              0.00          0.00    0.00
+             VIOL. EVAP. UHE           73.01         47.74    0.08
+             DESVIO UHE                 0.00          0.00    0.00
+             VIOL.LIM.EST.BOMB.         0.00          0.00    0.00
+            X------------------X-------------X-------------X-------X
+
+
+   X------------------------------------------------------------------------------------------X
+        CUSTOS CALCULADOS CONSIDERANDO A MAXIMA VIOLACAO DO VOLUME MINIMO OPERATIVO  (*)
+                                                ($10^6)
+   X------------------------------------------------------------------------------------------X
+   CUSTO DE OPERACAO DAS SERIES SIMULADAS
+       CUSTO DE OPERACAO:     114842.08
+   CUSTO MAXIMA VIOLACAO:      28616.47
+ 
+   VALOR ESPERADO PARA PERIODO DE ESTUDO
+       CUSTO DE OPERACAO:     114842.08
+   CUSTO MAXIMA VIOLACAO:      28616.47
+ 
+   VALOR ESPERADO PARA PERIODO DE ESTUDO REFERENCIADO AO PRIMEIRO MES DO PERIODO DE ESTUDO
+       CUSTO DE OPERACAO:     114842.08
+   CUSTO MAXIMA VIOLACAO:      28616.47
+
+
+   X------------------------------------------------------------------------------------------X
+        CUSTOS CONSIDERANDO A VIOLACAO DO VOLUME MINIMO OPERATIVO EM TODOS OS ESTAGIOS (*)
+                                                ($10^6)
+   X------------------------------------------------------------------------------------------X
+   CUSTO DE OPERACAO DAS SERIES SIMULADAS
+       CUSTO DE OPERACAO:     142205.86
+ 
+   VALOR ESPERADO PARA PERIODO DE ESTUDO
+       CUSTO DE OPERACAO:     142205.86
+ 
+   VALOR ESPERADO PARA PERIODO DE ESTUDO REFERENCIADO AO PRIMEIRO MES DO PERIODO DE ESTUDO
+       CUSTO DE OPERACAO:     142205.86
+   X------------------------------------------------------------------------------------------X
+   (*) VALORES CALCULADOS A POSTERIORI

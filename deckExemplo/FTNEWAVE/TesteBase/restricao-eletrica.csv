@@ -1,0 +1,64 @@
+&RE; cod_rest;  formula
+RE  ;    1; 1.0ger_usih(285) + ger_usih(287)
+RE  ;   20; 1.0ener_interc(2,1) + 0.5ger_usih(66)
+RE  ;   21; 1.0ener_interc(11,1) + ger_usih(261)+ ger_usih(257)
+RE  ;   22; 1.0ener_interc(11,1) + 1.0ener_interc(3,1) + ger_usih(261)+ ger_usih(257)
+RE  ;   23; 1.0ener_interc(11,1) + 1.0ener_interc(3,1) + 1.0ener_interc(4,1) + ger_usih(261)+ ger_usih(257)
+
+&RE-HORIZ-PER; cod_rest; PerIni; PerFin
+RE-HORIZ-PER ;        1;2024/08;2024/09
+RE-HORIZ-PER ;       20;2024/08;2025/07
+RE-HORIZ-PER ;       21;2024/08;2025/07
+RE-HORIZ-PER ;       22;2024/08;2024/09
+RE-HORIZ-PER ;       23;2024/10;2025/07
+
+&RE-LIM-FORM-PER-PAT; cod_rest;  PerIni;  PerFin;   Pat;    LimInf;  LimSup
+& Escoamento Madeira
+RE-LIM-FORM-PER-PAT ;        1; 2024/08; 2024/08;     1;   -1.1e30;  7379.4
+RE-LIM-FORM-PER-PAT ;        1; 2024/08; 2024/08;     2;   -1.1e30;  7379.4
+RE-LIM-FORM-PER-PAT ;        1; 2024/08; 2024/08;     3;   -1.1e30;  7379.4
+RE-LIM-FORM-PER-PAT ;        1; 2024/09; 2024/09;     1;   -1.1e30;  7410.4
+RE-LIM-FORM-PER-PAT ;        1; 2024/09; 2024/09;     2;   -1.1e30;  7410.4
+RE-LIM-FORM-PER-PAT ;        1; 2024/09; 2024/09;     3;   -1.1e30;  7410.4
+& Limite Sul-SE = Min (FSUL , RSE - 1/2 Itaipu)
+RE-LIM-FORM-PER-PAT ;       20; 2024/08; 2024/08;     1;   -1.1e30;  9800.0
+RE-LIM-FORM-PER-PAT ;       20; 2024/08; 2024/08;     2;   -1.1e30;  9800.0
+RE-LIM-FORM-PER-PAT ;       20; 2024/08; 2024/08;     3;   -1.1e30; 10800.0
+RE-LIM-FORM-PER-PAT ;       20; 2024/09; 2024/09;     1;   -1.1e30;  9800.0
+RE-LIM-FORM-PER-PAT ;       20; 2024/09; 2024/09;     2;   -1.1e30;  9800.0
+RE-LIM-FORM-PER-PAT ;       20; 2024/09; 2024/09;     3;   -1.1e30; 11400.0
+RE-LIM-FORM-PER-PAT ;       20; 2024/10; 2025/07;     1;   -1.1e30;  9800.0
+RE-LIM-FORM-PER-PAT ;       20; 2024/10; 2025/07;     2;   -1.1e30;  9800.0
+RE-LIM-FORM-PER-PAT ;       20; 2024/10; 2025/07;     3;   -1.1e30; 12000.0
+& Limite Imperatriz - Sudeste = FNS - Lajeado - Peixe Angical
+RE-LIM-FORM-PER-PAT ;       21; 2024/08; 2024/09;     1;   -1.1e30;  5100.0
+RE-LIM-FORM-PER-PAT ;       21; 2024/08; 2024/09;     2;   -1.1e30;  5100.0
+RE-LIM-FORM-PER-PAT ;       21; 2024/08; 2024/09;     3;   -1.1e30;  4900.0
+RE-LIM-FORM-PER-PAT ;       21; 2024/10; 2025/07;     1;   -1.1e30;  5400.0
+RE-LIM-FORM-PER-PAT ;       21; 2024/10; 2025/07;     2;   -1.1e30;  5400.0
+RE-LIM-FORM-PER-PAT ;       21; 2024/10; 2025/07;     3;   -1.1e30;  5200.0
+& Limite FNS + FNESE = Limite 11-1 + Limite 3-1 + Lajeado + Peixe Angical 
+RE-LIM-FORM-PER-PAT ;       22; 2024/08; 2024/09;     1;   -1.1e30; 11100.0
+RE-LIM-FORM-PER-PAT ;       22; 2024/08; 2024/09;     2;   -1.1e30; 11100.0
+RE-LIM-FORM-PER-PAT ;       22; 2024/08; 2024/09;     3;   -1.1e30; 11100.0
+& Limite FNS + FNESE + XINGU->SE/CO +  = Limite 11-1 + Limite 3-1 + + Limite 4-1 + Lajeado + Peixe Angical 
+RE-LIM-FORM-PER-PAT ;       23; 2024/10; 2024/10;     1;   -1.1e30; 13800.0
+RE-LIM-FORM-PER-PAT ;       23; 2024/10; 2024/10;     2;   -1.1e30; 13800.0
+RE-LIM-FORM-PER-PAT ;       23; 2024/10; 2024/10;     3;   -1.1e30; 13800.0
+RE-LIM-FORM-PER-PAT ;       23; 2024/11; 2024/11;     1;   -1.1e30; 14800.0
+RE-LIM-FORM-PER-PAT ;       23; 2024/11; 2024/11;     2;   -1.1e30; 14800.0
+RE-LIM-FORM-PER-PAT ;       23; 2024/11; 2024/11;     3;   -1.1e30; 14800.0
+RE-LIM-FORM-PER-PAT ;       23; 2024/12; 2024/12;     1;   -1.1e30; 16500.0
+RE-LIM-FORM-PER-PAT ;       23; 2024/12; 2024/12;     2;   -1.1e30; 16500.0
+RE-LIM-FORM-PER-PAT ;       23; 2024/12; 2024/12;     3;   -1.1e30; 16500.0
+RE-LIM-FORM-PER-PAT ;       23; 2025/01; 2025/06;     1;   -1.1e30; 16600.0
+RE-LIM-FORM-PER-PAT ;       23; 2025/01; 2025/06;     2;   -1.1e30; 16600.0
+RE-LIM-FORM-PER-PAT ;       23; 2025/01; 2025/06;     3;   -1.1e30; 16500.0
+RE-LIM-FORM-PER-PAT ;       23; 2025/07; 2025/07;     1;   -1.1e30; 15500.0
+RE-LIM-FORM-PER-PAT ;       23; 2025/07; 2025/07;     2;   -1.1e30; 15500.0
+RE-LIM-FORM-PER-PAT ;       23; 2025/07; 2025/07;     3;   -1.1e30; 15500.0
+
+
+
+
+
