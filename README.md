@@ -5,6 +5,8 @@ Atividade interrompida na Etapa 01.
 
 OBS: Testes realizados com o deck exemplo na pasta do código com a versão 30.0.1, então pode não estar funcionando para outras versões de Newave, verificar antes.
 OBS2: Testado apenas na nuvem da PEM por enquanto por motivos de desenvolvimento, pode não funcionar em outras nuvens.
+OBS3: Há um pull request aberto na inewave que corrige um ponto da biblioteca, permitindo uso dos testes de pmo.dat. (Título do pull request: Atualização leitura c_adic e sistema.dat)
+
 
 Etapa 01
 -  Automatização dos testes do pmo.dat e alguns demais testes em arquivos separados.
